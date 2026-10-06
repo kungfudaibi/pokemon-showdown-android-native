@@ -1,0 +1,117 @@
+<!doctype html><html><head><meta charset="utf-8">
+<script>window.exports=window;</script>
+<script src="https://play.pokemonshowdown.com/data/pokedex.js"></script>
+<script src="https://play.pokemonshowdown.com/data/moves.js"></script>
+<script src="https://play.pokemonshowdown.com/data/items.js"></script>
+<script src="https://play.pokemonshowdown.com/data/abilities.js"></script>
+<script src="https://play.pokemonshowdown.com/data/text/zh-cn.js"></script>
+<script src="https://play.pokemonshowdown.com/data/teambuilder-tables.js"></script>
+</head><body><script>
+(function(){
+  function id(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'');}
+  window.catalogReady=!!(window.BattlePokedex&&window.BattleMovedex&&window.BattleItems&&window.BattleAbilities&&window.BattleText&&BattleText['zh-cn']&&window.BattleTeambuilderTable&&BattleTeambuilderTable.learnsets);
+  window.catalogItems=function(format,species){
+    if(!catalogReady)return [];
+    var match=String(format||'').match(/^gen([1-9])/),gen=match?Number(match[1]):9;
+    var national=/natdex|nationaldex/i.test(format||'');
+    var allowPast=gen<=7||national;
+    return Object.keys(BattleItems).filter(function(key){
+      var item=BattleItems[key];
+      return item&&item.name&&(!item.gen||item.gen<=gen)&&
+        (!item.isNonstandard||(allowPast&&item.isNonstandard==='Past'));
+    }).map(function(key){
+      var item=BattleItems[key],name=item.name,translated=BattleText['zh-cn'].Items&&BattleText['zh-cn'].Items[key];
+      var preferred=item.itemUser&&item.itemUser.some(function(user){return id(user)===id(species);});
+      return {name:translated&&translated.name?translated.name+' · '+name:name,preferred:preferred};
+    }).sort(function(a,b){return Number(b.preferred)-Number(a.preferred)||a.name.localeCompare(b.name);})
+      .map(function(item){return item.name;});
+  };
+  window.catalogAbilities=function(species){
+    if(!catalogReady)return [];
+    var entry=BattlePokedex[id(species)];
+    return entry&&entry.abilities?Object.keys(entry.abilities).map(function(key){
+      var name=entry.abilities[key],translated=BattleText['zh-cn'].Abilities&&BattleText['zh-cn'].Abilities[id(name)];
+      return translated&&translated.name?translated.name+' · '+name:name;
+    }).filter(Boolean):[];
+  };
+  window.catalogSpecies=function(format){
+    if(!catalogReady)return [];
+    var match=String(format||'').match(/^gen([1-9])/),gen=match?Number(match[1]):9;
+    var national=/natdex|nationaldex/i.test(format||''),regular=gen===9&&!national;
+    var tiers=['PU','NU','RU','UU','OU','Uber','AG'];
+    var suffix=String(format||'').match(/^gen9(ou|uu|ru|nu|pu|ubers|lc)$/i);
+    var targetTier=suffix?suffix[1].toUpperCase():'';
+    function generation(entry){
+      if(entry.gen)return entry.gen;
+      var form=String(entry.forme||'');
+      if(/Mega|Primal/.test(form))return 6;
+      if(/Alola/.test(form))return 7;
+      if(/Galar|Hisui|Gmax/.test(form))return 8;
+      if(/Paldea/.test(form))return 9;
+      var limits=[151,251,386,493,649,721,809,905,1025];
+      for(var i=0;i<limits.length;i++)if(entry.num<=limits[i])return i+1;
+      return 10;
+    }
+    return Object.keys(BattlePokedex).map(function(key){
+      var entry=BattlePokedex[key],tier=entry.tier||'',rank=tiers.indexOf(tier);
+      if(!entry||!entry.name||entry.num<=0||generation(entry)>gen)return null;
+      var mega=/Mega/.test(String(entry.forme||''))&&entry.requiredItem&&entry.baseSpecies;
+      if(/Primal/.test(String(entry.forme||'')))return null;
+      if(mega&&!(gen===6||gen===7||national))return null;
+      if(regular&&entry.isNonstandard)return null;
+      if(entry.isNonstandard&&entry.isNonstandard!=='Past')return null;
+      if(targetTier==='LC'&&tier!=='LC')return null;
+      if(!mega&&targetTier==='UBERS'&&(tier==='AG'||tier==='Illegal'))return null;
+      if(!mega&&targetTier&&targetTier!=='LC'&&targetTier!=='UBERS'&&
+         (tier==='AG'||tier==='Uber'||tier==='Illegal'||rank>tiers.indexOf(targetTier)))return null;
+      var translated=BattleText['zh-cn'].Pokedex&&BattleText['zh-cn'].Pokedex[key];
+      return {english:mega?entry.baseSpecies:entry.name,
+        chinese:translated&&translated.name||entry.name,
+        formEnglish:mega?entry.name:'',requiredItem:mega?entry.requiredItem:''};
+    }).filter(Boolean);
+  };
+  window.catalogMoves=function(species,format){
+    if(!catalogReady)return [];
+    var match=String(format||'').match(/^gen([1-9])/);
+    var gen=match?Number(match[1]):9;
+    var national=/natdex|nationaldex/i.test(format||'');
+    var useCurrentGame=gen===9&&!national||/vgc|bss|battlespot|battlestadium|battlefestival/i.test(format||'');
+    var genCode=useCurrentGame?({6:'p',7:'q',8:'g',9:'a'}[gen]||String(gen)):String(gen);
+    var current=id(species), visited={}, result={};
+    while(current&&!visited[current]){
+      visited[current]=true;
+      var learnset=BattleTeambuilderTable.learnsets[current]||{};
+      Object.keys(learnset).forEach(function(moveid){
+        var move=BattleMovedex[moveid];
+        var sources=learnset[moveid];
+        if(sources.indexOf(genCode)<0||move&&move.gen>gen)return;
+        if(!national&&move&&move.isNonstandard==='Past')return;
+        result[moveid]=true;
+      });
+      var entry=BattlePokedex[current];
+      var next=entry&&(entry.prevo||entry.baseSpecies);
+      current=id(next);
+    }
+    return Object.keys(result).sort();
+  };
+  window.catalogMoveInfo=function(moveid,format){
+    var move=window.BattleMovedex&&BattleMovedex[id(moveid)];
+    if(!move)return null;
+    var moveText=BattleText['zh-cn'].Moves||{};
+    var translated=moveText[id(moveid)];
+    if((!translated||!translated.desc&&!translated.shortDesc)&&/^hiddenpower/.test(id(moveid)))
+      translated=moveText.hiddenpower;
+    var match=String(format||'').match(/^gen([1-9])/),gen=match?Number(match[1]):9;
+    if(translated&&translated['gen'+gen])translated=Object.assign({},translated,translated['gen'+gen]);
+    return {name:move.name||moveid,type:move.type||'',category:move.category||'',
+      power:move.basePower||0,accuracy:move.accuracy,pp:move.pp||0,
+      description:translated&&(translated.desc||translated.shortDesc)||'' ,
+      summary:translated&&(translated.shortDesc||translated.desc)||''};
+  };
+  window.catalogMoveSummaries=function(moveids,format){
+    var result={};
+    (moveids||[]).forEach(function(moveid){var info=catalogMoveInfo(moveid,format);result[moveid]=info&&info.summary||'';});
+    return result;
+  };
+})();
+</script></body></html>

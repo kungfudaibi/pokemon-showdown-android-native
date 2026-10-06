@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="https://play.pokemonshowdown.com/style/battle.css">
+<style>html,body{margin:0;padding:0;width:100%;height:100%;background:#161d2a;overflow:hidden}.battle{position:absolute;width:640px;height:360px;transform-origin:top left}.battle-log{display:none}.ps-type{display:inline-block;border:1px solid #617186;border-radius:3px;background:#344359;color:white;font:11px sans-serif;padding:1px 3px;vertical-align:text-bottom}</style>
+<script>window.exports=window;</script>
+<script src="https://play.pokemonshowdown.com/js/lib/ps-polyfill.js"></script>
+<script src="https://play.pokemonshowdown.com/config/config.js"></script>
+<script src="https://play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js"></script>
+<script src="https://play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js"></script>
+<script src="https://play.pokemonshowdown.com/js/battle-sound.js"></script>
+<script src="https://play.pokemonshowdown.com/js/battledata.js"></script>
+<script src="https://play.pokemonshowdown.com/data/text/zh-cn.js"></script>
+<script src="https://play.pokemonshowdown.com/data/pokedex-mini.js"></script>
+<script src="https://play.pokemonshowdown.com/data/pokedex-mini-bw.js"></script>
+<script src="https://play.pokemonshowdown.com/data/graphics.js"></script>
+<script src="https://play.pokemonshowdown.com/data/pokedex.js"></script>
+<script src="https://play.pokemonshowdown.com/data/moves.js"></script>
+<script src="https://play.pokemonshowdown.com/data/abilities.js"></script>
+<script src="https://play.pokemonshowdown.com/data/items.js"></script>
+<script src="https://play.pokemonshowdown.com/data/teambuilder-tables.js"></script>
+<script src="https://play.pokemonshowdown.com/js/battle-tooltips.js"></script>
+<script src="https://play.pokemonshowdown.com/js/battle-animations-moves.js"></script>
+<script src="https://play.pokemonshowdown.com/js/battle-animations.js"></script>
+<script src="https://play.pokemonshowdown.com/js/battle.js"></script>
+</head><body><div class="battle"></div><div class="battle-log"></div>
+<script>
+(function(){
+  function resize(){
+    var width=document.documentElement.clientWidth,height=document.documentElement.clientHeight;
+    var scale=Math.min(width/640,height/360);
+    var battle=document.querySelector('.battle');
+    battle.style.left=((width-640*scale)/2)+'px';
+    battle.style.top=((height-360*scale)/2)+'px';
+    battle.style.transform='scale('+scale+')';
+  }
+  addEventListener('resize',resize);resize();
+  window.psReady=false;
+  try {
+    // BattleTextParser reads this preference when BattleScene is created.
+    window.Storage=window.Storage||{};
+    var previousPrefs=Storage.prefs;
+    Storage.prefs=function(key){return key==='language'?'simplifiedchinese':previousPrefs&&previousPrefs.call(Storage,key);};
+    // The official statbar uses fixed English abbreviations even with translated battle text.
+    var statWords={BRN:'灼伤',PSN:'中毒',TOX:'剧毒',SLP:'睡眠',PAR:'麻痹',FRZ:'冰冻',
+      Atk:'攻击',Def:'防御',SpA:'特攻',SpD:'特防',Spe:'速度',Acc:'命中',Eva:'闪避',
+      Confused:'混乱',Drowsy:'困倦',Protect:'守住','Leech Seed':'寄生种子',
+      Substitute:'替身',Taunt:'挑衅',Encore:'再来一次',Trapped:'无法逃脱',
+      'Light Screen':'光墙',Reflect:'反射壁','Throat Chop':'地狱突刺'};
+    var typeWords={Normal:'一般',Fire:'火',Water:'水',Electric:'电',Grass:'草',Ice:'冰',
+      Fighting:'格斗',Poison:'毒',Ground:'地面',Flying:'飞行',Psychic:'超能力',Bug:'虫',
+      Rock:'岩石',Ghost:'幽灵',Dragon:'龙',Dark:'恶',Steel:'钢',Fairy:'妖精'};
+    var updateStatbar=PokemonSprite.prototype.updateStatbar;
+    PokemonSprite.prototype.updateStatbar=function(pokemon){
+      var result=updateStatbar.apply(this,arguments);
+      if(this.$statbar){
+        var translation=window.BattleText&&BattleText['zh-cn'];
+        var species=pokemon.speciesForme&&pokemon.speciesForme.toLowerCase().replace(/[^a-z0-9]/g,'');
+        var name=translation&&translation.Pokedex[species];
+        var heading=this.$statbar.find('strong').get(0);
+        if(name&&name.name&&pokemon.name===pokemon.speciesForme&&heading&&heading.firstChild&&heading.firstChild.nodeType===3)
+          heading.firstChild.nodeValue=name.name;
+        this.$statbar.find('.status span').each(function(){
+          var value=this.textContent.trim();
+          if(statWords[value])this.textContent=statWords[value];
+          else this.textContent=value.replace(/\b(Atk|Def|SpA|SpD|Spe|Acc|Eva)\b/g,function(word){return statWords[word];});
+        });
+        this.$statbar.find('.status img').each(function(){
+          var value=this.alt.replace(/^Tera-/,'');
+          if(!typeWords[value])return;
+          var label=document.createElement('span');
+          label.className='ps-type';
+          label.textContent=(this.alt.indexOf('Tera-')===0?'太晶·':'')+typeWords[value];
+          this.replaceWith(label);
+        });
+      }
+      return result;
+    };
+    Dex.loadTextData('zh-cn');
+    window.psBattle=new Battle({$frame:$('.battle'),$logFrame:$('.battle-log'),paused:true,isReplay:false,autoresize:false});
+    console.log('language='+psBattle.scene.log.battleParser.language+' viewport='+innerWidth+'/'+document.documentElement.clientWidth+' scale='+document.querySelector('.battle').style.transform);
+    window.psFirstBatch=true;
+    window.psReceive=function(lines){
+      if(!lines.length)return;
+      psBattle.addBatch(lines);
+      if(psFirstBatch){psFirstBatch=false;psBattle.seekTurn(Infinity);psBattle.play();}
+    };
+    window.psSetSide=function(side){if(side==='p2' && psBattle.mySide===psBattle.p1)psBattle.switchViewpoint();};
+    window.psReady=true;
+  }catch(error){window.psError=String(error);console.error(error);}
+})();
+</script></body></html>

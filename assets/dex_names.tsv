@@ -1,0 +1,1944 @@
+M	Pound	拍击	Normal	2	40
+M	Karate Chop	空手劈	Fighting	2	50
+M	Double Slap	连环巴掌	Normal	2	15
+M	Comet Punch	连续拳	Normal	2	18
+M	Mega Punch	百万吨重拳	Normal	2	80
+M	Pay Day	聚宝功	Normal	2	40
+M	Fire Punch	火焰拳	Fire	2	75
+M	Ice Punch	冰冻拳	Ice	2	75
+M	Thunder Punch	雷电拳	Electric	2	75
+M	Scratch	抓	Normal	2	40
+M	Vise Grip	夹住	Normal	2	55
+M	Guillotine	断头钳	Normal	2	0
+M	Razor Wind	旋风刀	Normal	3	80
+M	Swords Dance	剑舞	Normal	1	0
+M	Cut	居合斩	Normal	2	50
+M	Gust	起风	Flying	3	40
+M	Wing Attack	翅膀攻击	Flying	2	60
+M	Whirlwind	吹飞	Normal	1	0
+M	Fly	飞翔	Flying	2	90
+M	Bind	绑紧	Normal	2	15
+M	Slam	摔打	Normal	2	80
+M	Vine Whip	藤鞭	Grass	2	45
+M	Stomp	踩踏	Normal	2	65
+M	Double Kick	二连踢	Fighting	2	30
+M	Mega Kick	百万吨重踢	Normal	2	120
+M	Jump Kick	飞踢	Fighting	2	100
+M	Rolling Kick	回旋踢	Fighting	2	60
+M	Sand Attack	泼沙	Ground	1	0
+M	Headbutt	头锤	Normal	2	70
+M	Horn Attack	角撞	Normal	2	65
+M	Fury Attack	乱击	Normal	2	15
+M	Horn Drill	角钻	Normal	2	0
+M	Tackle	撞击	Normal	2	40
+M	Body Slam	泰山压顶	Normal	2	85
+M	Wrap	紧束	Normal	2	15
+M	Take Down	猛撞	Normal	2	90
+M	Thrash	大闹一番	Normal	2	120
+M	Double-Edge	舍身冲撞	Normal	2	120
+M	Tail Whip	摇尾巴	Normal	1	0
+M	Poison Sting	毒针	Poison	2	15
+M	Twineedle	双针	Bug	2	25
+M	Pin Missile	飞弹针	Bug	2	25
+M	Leer	瞪眼	Normal	1	0
+M	Bite	咬住	Dark	2	60
+M	Growl	叫声	Normal	1	0
+M	Roar	吼叫	Normal	1	0
+M	Sing	唱歌	Normal	1	0
+M	Supersonic	超音波	Normal	1	0
+M	Sonic Boom	音爆	Normal	3	0
+M	Disable	定身法	Normal	1	0
+M	Acid	溶解液	Poison	3	40
+M	Ember	火花	Fire	3	40
+M	Flamethrower	喷射火焰	Fire	3	90
+M	Mist	白雾	Ice	1	0
+M	Water Gun	水枪	Water	3	40
+M	Hydro Pump	水炮	Water	3	110
+M	Surf	冲浪	Water	3	90
+M	Ice Beam	冰冻光束	Ice	3	90
+M	Blizzard	暴风雪	Ice	3	110
+M	Psybeam	幻象光线	Psychic	3	65
+M	Bubble Beam	泡沫光线	Water	3	65
+M	Aurora Beam	极光束	Ice	3	65
+M	Hyper Beam	破坏光线	Normal	3	150
+M	Peck	啄	Flying	2	35
+M	Drill Peck	啄钻	Flying	2	80
+M	Submission	地狱翻滚	Fighting	2	80
+M	Low Kick	踢倒	Fighting	2	0
+M	Counter	双倍奉还	Fighting	2	0
+M	Seismic Toss	地球上投	Fighting	2	0
+M	Strength	怪力	Normal	2	80
+M	Absorb	吸取	Grass	3	20
+M	Mega Drain	超级吸取	Grass	3	40
+M	Leech Seed	寄生种子	Grass	1	0
+M	Growth	生长	Normal	1	0
+M	Razor Leaf	飞叶快刀	Grass	2	55
+M	Solar Beam	日光束	Grass	3	120
+M	Poison Powder	毒粉	Poison	1	0
+M	Stun Spore	麻痹粉	Grass	1	0
+M	Sleep Powder	催眠粉	Grass	1	0
+M	Petal Dance	花瓣舞	Grass	3	120
+M	String Shot	吐丝	Bug	1	0
+M	Dragon Rage	龙之怒	Dragon	3	0
+M	Fire Spin	火焰旋涡	Fire	3	35
+M	Thunder Shock	电击	Electric	3	40
+M	Thunderbolt	十万伏特	Electric	3	90
+M	Thunder Wave	电磁波	Electric	1	0
+M	Thunder	打雷	Electric	3	110
+M	Rock Throw	落石	Rock	2	50
+M	Earthquake	地震	Ground	2	100
+M	Fissure	地裂	Ground	2	0
+M	Dig	挖洞	Ground	2	80
+M	Toxic	剧毒	Poison	1	0
+M	Confusion	念力	Psychic	3	50
+M	Psychic	精神强念	Psychic	3	90
+M	Hypnosis	催眠术	Psychic	1	0
+M	Meditate	瑜伽姿势	Psychic	1	0
+M	Agility	高速移动	Psychic	1	0
+M	Quick Attack	电光一闪	Normal	2	40
+M	Rage	愤怒	Normal	2	20
+M	Teleport	瞬间移动	Psychic	1	0
+M	Night Shade	黑夜魔影	Ghost	3	0
+M	Mimic	模仿	Normal	1	0
+M	Screech	刺耳声	Normal	1	0
+M	Double Team	影子分身	Normal	1	0
+M	Recover	自我再生	Normal	1	0
+M	Harden	变硬	Normal	1	0
+M	Minimize	变小	Normal	1	0
+M	Smokescreen	烟幕	Normal	1	0
+M	Confuse Ray	奇异之光	Ghost	1	0
+M	Withdraw	缩入壳中	Water	1	0
+M	Defense Curl	变圆	Normal	1	0
+M	Barrier	屏障	Psychic	1	0
+M	Light Screen	光墙	Psychic	1	0
+M	Haze	黑雾	Ice	1	0
+M	Reflect	反射壁	Psychic	1	0
+M	Focus Energy	聚气	Normal	1	0
+M	Bide	忍耐	Normal	2	0
+M	Metronome	挥指	Normal	1	0
+M	Mirror Move	鹦鹉学舌	Flying	1	0
+M	Self-Destruct	自爆	Normal	2	200
+M	Egg Bomb	炸蛋	Normal	2	100
+M	Lick	舌舔	Ghost	2	30
+M	Smog	浊雾	Poison	3	30
+M	Sludge	污泥攻击	Poison	3	65
+M	Bone Club	骨棒	Ground	2	65
+M	Fire Blast	大字爆炎	Fire	3	110
+M	Waterfall	攀瀑	Water	2	80
+M	Clamp	贝壳夹击	Water	2	35
+M	Swift	高速星星	Normal	3	60
+M	Skull Bash	火箭头锤	Normal	2	130
+M	Spike Cannon	尖刺加农炮	Normal	2	20
+M	Constrict	缠绕	Normal	2	10
+M	Amnesia	瞬间失忆	Psychic	1	0
+M	Kinesis	折弯汤匙	Psychic	1	0
+M	Soft-Boiled	生蛋	Normal	1	0
+M	High Jump Kick	飞膝踢	Fighting	2	130
+M	Glare	大蛇瞪眼	Normal	1	0
+M	Dream Eater	食梦	Psychic	3	100
+M	Poison Gas	毒瓦斯	Poison	1	0
+M	Barrage	投球	Normal	2	15
+M	Leech Life	吸血	Bug	2	80
+M	Lovely Kiss	恶魔之吻	Normal	1	0
+M	Sky Attack	神鸟猛击	Flying	2	140
+M	Transform	变身	Normal	1	0
+M	Bubble	泡沫	Water	3	40
+M	Dizzy Punch	迷昏拳	Normal	2	70
+M	Spore	蘑菇孢子	Grass	1	0
+M	Flash	闪光	Normal	1	0
+M	Psywave	精神波	Psychic	3	0
+M	Splash	跃起	Normal	1	0
+M	Acid Armor	溶化	Poison	1	0
+M	Crabhammer	蟹钳锤	Water	2	100
+M	Explosion	大爆炸	Normal	2	250
+M	Fury Swipes	乱抓	Normal	2	18
+M	Bonemerang	骨头回力镖	Ground	2	50
+M	Rest	睡觉	Psychic	1	0
+M	Rock Slide	岩崩	Rock	2	75
+M	Hyper Fang	必杀门牙	Normal	2	80
+M	Sharpen	棱角化	Normal	1	0
+M	Conversion	纹理	Normal	1	0
+M	Tri Attack	三重攻击	Normal	3	80
+M	Super Fang	愤怒门牙	Normal	2	0
+M	Slash	劈开	Normal	2	70
+M	Substitute	替身	Normal	1	0
+M	Struggle	挣扎	Normal	2	50
+M	Sketch	写生	Normal	1	0
+M	Triple Kick	三连踢	Fighting	2	10
+M	Thief	小偷	Dark	2	60
+M	Spider Web	蛛网	Bug	1	0
+M	Mind Reader	心之眼	Normal	1	0
+M	Nightmare	恶梦	Ghost	1	0
+M	Flame Wheel	火焰轮	Fire	2	60
+M	Snore	打鼾	Normal	3	50
+M	Curse	诅咒	Ghost	1	0
+M	Flail	抓狂	Normal	2	0
+M	Conversion 2	纹理２	Normal	1	0
+M	Aeroblast	气旋攻击	Flying	3	100
+M	Cotton Spore	棉孢子	Grass	1	0
+M	Reversal	起死回生	Fighting	2	0
+M	Spite	怨恨	Ghost	1	0
+M	Powder Snow	细雪	Ice	3	40
+M	Protect	守住	Normal	1	0
+M	Mach Punch	音速拳	Fighting	2	40
+M	Scary Face	鬼面	Normal	1	0
+M	Feint Attack	出奇一击	Dark	2	60
+M	Sweet Kiss	天使之吻	Fairy	1	0
+M	Belly Drum	腹鼓	Normal	1	0
+M	Sludge Bomb	污泥炸弹	Poison	3	90
+M	Mud-Slap	掷泥	Ground	3	20
+M	Octazooka	章鱼桶炮	Water	3	65
+M	Spikes	撒菱	Ground	1	0
+M	Zap Cannon	电磁炮	Electric	3	120
+M	Foresight	识破	Normal	1	0
+M	Destiny Bond	同命	Ghost	1	0
+M	Perish Song	灭亡之歌	Normal	1	0
+M	Icy Wind	冰冻之风	Ice	3	55
+M	Detect	看穿	Fighting	1	0
+M	Bone Rush	骨棒乱打	Ground	2	25
+M	Lock-On	锁定	Normal	1	0
+M	Outrage	逆鳞	Dragon	2	120
+M	Sandstorm	沙暴	Rock	1	0
+M	Giga Drain	终极吸取	Grass	3	75
+M	Endure	挺住	Normal	1	0
+M	Charm	撒娇	Fairy	1	0
+M	Rollout	滚动	Rock	2	30
+M	False Swipe	点到为止	Normal	2	40
+M	Swagger	虚张声势	Normal	1	0
+M	Milk Drink	喝牛奶	Normal	1	0
+M	Spark	电光	Electric	2	65
+M	Fury Cutter	连斩	Bug	2	40
+M	Steel Wing	钢翼	Steel	2	70
+M	Mean Look	黑色目光	Normal	1	0
+M	Attract	迷人	Normal	1	0
+M	Sleep Talk	梦话	Normal	1	0
+M	Heal Bell	治愈铃声	Normal	1	0
+M	Return	报恩	Normal	2	0
+M	Present	礼物	Normal	2	0
+M	Frustration	迁怒	Normal	2	0
+M	Safeguard	神秘守护	Normal	1	0
+M	Pain Split	分担痛楚	Normal	1	0
+M	Sacred Fire	神圣之火	Fire	2	100
+M	Magnitude	震级	Ground	2	0
+M	Dynamic Punch	爆裂拳	Fighting	2	100
+M	Megahorn	超级角击	Bug	2	120
+M	Dragon Breath	龙息	Dragon	3	60
+M	Baton Pass	接棒	Normal	1	0
+M	Encore	再来一次	Normal	1	0
+M	Pursuit	追打	Dark	2	40
+M	Rapid Spin	高速旋转	Normal	2	50
+M	Sweet Scent	甜甜香气	Normal	1	0
+M	Iron Tail	铁尾	Steel	2	100
+M	Metal Claw	金属爪	Steel	2	50
+M	Vital Throw	借力摔	Fighting	2	70
+M	Morning Sun	晨光	Normal	1	0
+M	Synthesis	光合作用	Grass	1	0
+M	Moonlight	月光	Fairy	1	0
+M	Hidden Power	觉醒力量	Normal	3	60
+M	Cross Chop	十字劈	Fighting	2	100
+M	Twister	龙卷风	Dragon	3	40
+M	Rain Dance	求雨	Water	1	0
+M	Sunny Day	大晴天	Fire	1	0
+M	Crunch	咬碎	Dark	2	80
+M	Mirror Coat	镜面反射	Psychic	3	0
+M	Psych Up	自我暗示	Normal	1	0
+M	Extreme Speed	神速	Normal	2	80
+M	Ancient Power	原始之力	Rock	3	60
+M	Shadow Ball	暗影球	Ghost	3	80
+M	Future Sight	预知未来	Psychic	3	120
+M	Rock Smash	碎岩	Fighting	2	40
+M	Whirlpool	潮旋	Water	3	35
+M	Beat Up	围攻	Dark	2	0
+M	Fake Out	击掌奇袭	Normal	2	40
+M	Uproar	吵闹	Normal	3	90
+M	Stockpile	蓄力	Normal	1	0
+M	Spit Up	喷出	Normal	3	0
+M	Swallow	吞下	Normal	1	0
+M	Heat Wave	热风	Fire	3	95
+M	Hail	冰雹	Ice	1	0
+M	Torment	无理取闹	Dark	1	0
+M	Flatter	吹捧	Dark	1	0
+M	Will-O-Wisp	鬼火	Fire	1	0
+M	Memento	临别礼物	Dark	1	0
+M	Facade	硬撑	Normal	2	70
+M	Focus Punch	真气拳	Fighting	2	150
+M	Smelling Salts	清醒	Normal	2	70
+M	Follow Me	看我嘛	Normal	1	0
+M	Nature Power	自然之力	Normal	1	0
+M	Charge	充电	Electric	1	0
+M	Taunt	挑衅	Dark	1	0
+M	Helping Hand	帮助	Normal	1	0
+M	Trick	戏法	Psychic	1	0
+M	Role Play	扮演	Psychic	1	0
+M	Wish	祈愿	Normal	1	0
+M	Assist	借助	Normal	1	0
+M	Ingrain	扎根	Grass	1	0
+M	Superpower	蛮力	Fighting	2	120
+M	Magic Coat	魔法反射	Psychic	1	0
+M	Recycle	回收利用	Normal	1	0
+M	Revenge	报复	Fighting	2	60
+M	Brick Break	劈瓦	Fighting	2	75
+M	Yawn	哈欠	Normal	1	0
+M	Knock Off	拍落	Dark	2	65
+M	Endeavor	蛮干	Normal	2	0
+M	Eruption	喷火	Fire	3	150
+M	Skill Swap	特性互换	Psychic	1	0
+M	Imprison	封印	Psychic	1	0
+M	Refresh	焕然一新	Normal	1	0
+M	Grudge	怨念	Ghost	1	0
+M	Snatch	抢夺	Dark	1	0
+M	Secret Power	秘密之力	Normal	2	70
+M	Dive	潜水	Water	2	80
+M	Arm Thrust	猛推	Fighting	2	15
+M	Camouflage	保护色	Normal	1	0
+M	Tail Glow	萤火	Bug	1	0
+M	Luster Purge	洁净光芒	Psychic	3	95
+M	Mist Ball	薄雾球	Psychic	3	95
+M	Feather Dance	羽毛舞	Flying	1	0
+M	Teeter Dance	摇晃舞	Normal	1	0
+M	Blaze Kick	火焰踢	Fire	2	85
+M	Mud Sport	玩泥巴	Ground	1	0
+M	Ice Ball	冰球	Ice	2	30
+M	Needle Arm	尖刺臂	Grass	2	60
+M	Slack Off	偷懒	Normal	1	0
+M	Hyper Voice	巨声	Normal	3	90
+M	Poison Fang	剧毒牙	Poison	2	50
+M	Crush Claw	撕裂爪	Normal	2	75
+M	Blast Burn	爆炸烈焰	Fire	3	150
+M	Hydro Cannon	加农水炮	Water	3	150
+M	Meteor Mash	彗星拳	Steel	2	90
+M	Astonish	惊吓	Ghost	2	30
+M	Weather Ball	气象球	Normal	3	50
+M	Aromatherapy	芳香治疗	Grass	1	0
+M	Fake Tears	假哭	Dark	1	0
+M	Air Cutter	空气利刃	Flying	3	60
+M	Overheat	过热	Fire	3	130
+M	Odor Sleuth	气味侦测	Normal	1	0
+M	Rock Tomb	岩石封锁	Rock	2	60
+M	Silver Wind	银色旋风	Bug	3	60
+M	Metal Sound	金属音	Steel	1	0
+M	Grass Whistle	草笛	Grass	1	0
+M	Tickle	挠痒	Normal	1	0
+M	Cosmic Power	宇宙力量	Psychic	1	0
+M	Water Spout	喷水	Water	3	150
+M	Signal Beam	信号光束	Bug	3	75
+M	Shadow Punch	暗影拳	Ghost	2	60
+M	Extrasensory	神通力	Psychic	3	80
+M	Sky Uppercut	冲天拳	Fighting	2	85
+M	Sand Tomb	流沙地狱	Ground	2	35
+M	Sheer Cold	绝对零度	Ice	3	0
+M	Muddy Water	浊流	Water	3	90
+M	Bullet Seed	种子机关枪	Grass	2	25
+M	Aerial Ace	燕返	Flying	2	60
+M	Icicle Spear	冰锥	Ice	2	25
+M	Iron Defense	铁壁	Steel	1	0
+M	Block	挡路	Normal	1	0
+M	Howl	长嚎	Normal	1	0
+M	Dragon Claw	龙爪	Dragon	2	80
+M	Frenzy Plant	疯狂植物	Grass	3	150
+M	Bulk Up	健美	Fighting	1	0
+M	Bounce	弹跳	Flying	2	85
+M	Mud Shot	泥巴射击	Ground	3	55
+M	Poison Tail	毒尾	Poison	2	50
+M	Covet	渴望	Normal	2	60
+M	Volt Tackle	伏特攻击	Electric	2	120
+M	Magical Leaf	魔法叶	Grass	3	60
+M	Water Sport	玩水	Water	1	0
+M	Calm Mind	冥想	Psychic	1	0
+M	Leaf Blade	叶刃	Grass	2	90
+M	Dragon Dance	龙之舞	Dragon	1	0
+M	Rock Blast	岩石爆击	Rock	2	25
+M	Shock Wave	电击波	Electric	3	60
+M	Water Pulse	水之波动	Water	3	60
+M	Doom Desire	破灭之愿	Steel	3	140
+M	Psycho Boost	精神突进	Psychic	3	140
+M	Roost	羽栖	Flying	1	0
+M	Gravity	重力	Psychic	1	0
+M	Miracle Eye	奇迹之眼	Psychic	1	0
+M	Wake-Up Slap	唤醒巴掌	Fighting	2	70
+M	Hammer Arm	臂锤	Fighting	2	100
+M	Gyro Ball	陀螺球	Steel	2	0
+M	Healing Wish	治愈之愿	Psychic	1	0
+M	Brine	盐水	Water	3	65
+M	Natural Gift	自然之恩	Normal	2	0
+M	Feint	佯攻	Normal	2	30
+M	Pluck	啄食	Flying	2	60
+M	Tailwind	顺风	Flying	1	0
+M	Acupressure	点穴	Normal	1	0
+M	Metal Burst	金属爆炸	Steel	2	0
+M	U-turn	急速折返	Bug	2	70
+M	Close Combat	近身战	Fighting	2	120
+M	Payback	以牙还牙	Dark	2	50
+M	Assurance	恶意追击	Dark	2	60
+M	Embargo	查封	Dark	1	0
+M	Fling	投掷	Dark	2	0
+M	Psycho Shift	精神转移	Psychic	1	0
+M	Trump Card	王牌	Normal	3	0
+M	Heal Block	回复封锁	Psychic	1	0
+M	Wring Out	绞紧	Normal	3	0
+M	Power Trick	力量戏法	Psychic	1	0
+M	Gastro Acid	胃液	Poison	1	0
+M	Lucky Chant	幸运咒语	Normal	1	0
+M	Me First	抢先一步	Normal	1	0
+M	Copycat	仿效	Normal	1	0
+M	Power Swap	力量互换	Psychic	1	0
+M	Guard Swap	防守互换	Psychic	1	0
+M	Punishment	惩罚	Dark	2	0
+M	Last Resort	珍藏	Normal	2	140
+M	Worry Seed	烦恼种子	Grass	1	0
+M	Sucker Punch	突袭	Dark	2	70
+M	Toxic Spikes	毒菱	Poison	1	0
+M	Heart Swap	心灵互换	Psychic	1	0
+M	Aqua Ring	水流环	Water	1	0
+M	Magnet Rise	电磁飘浮	Electric	1	0
+M	Flare Blitz	闪焰冲锋	Fire	2	120
+M	Force Palm	发劲	Fighting	2	60
+M	Aura Sphere	波导弹	Fighting	3	80
+M	Rock Polish	岩石打磨	Rock	1	0
+M	Poison Jab	毒击	Poison	2	80
+M	Dark Pulse	恶之波动	Dark	3	80
+M	Night Slash	暗袭要害	Dark	2	70
+M	Aqua Tail	水流尾	Water	2	90
+M	Seed Bomb	种子炸弹	Grass	2	80
+M	Air Slash	空气斩	Flying	3	75
+M	X-Scissor	十字剪	Bug	2	80
+M	Bug Buzz	虫鸣	Bug	3	90
+M	Dragon Pulse	龙之波动	Dragon	3	85
+M	Dragon Rush	龙之俯冲	Dragon	2	100
+M	Power Gem	力量宝石	Rock	3	80
+M	Drain Punch	吸取拳	Fighting	2	75
+M	Vacuum Wave	真空波	Fighting	3	40
+M	Focus Blast	真气弹	Fighting	3	120
+M	Energy Ball	能量球	Grass	3	90
+M	Brave Bird	勇鸟猛攻	Flying	2	120
+M	Earth Power	大地之力	Ground	3	90
+M	Switcheroo	掉包	Dark	1	0
+M	Giga Impact	终极冲击	Normal	2	150
+M	Nasty Plot	诡计	Dark	1	0
+M	Bullet Punch	子弹拳	Steel	2	40
+M	Avalanche	雪崩	Ice	2	60
+M	Ice Shard	冰砾	Ice	2	40
+M	Shadow Claw	暗影爪	Ghost	2	70
+M	Thunder Fang	雷电牙	Electric	2	65
+M	Ice Fang	冰冻牙	Ice	2	65
+M	Fire Fang	火焰牙	Fire	2	65
+M	Shadow Sneak	影子偷袭	Ghost	2	40
+M	Mud Bomb	泥巴炸弹	Ground	3	65
+M	Psycho Cut	精神利刃	Psychic	2	70
+M	Zen Headbutt	意念头锤	Psychic	2	80
+M	Mirror Shot	镜光射击	Steel	3	65
+M	Flash Cannon	加农光炮	Steel	3	80
+M	Rock Climb	攀岩	Normal	2	90
+M	Defog	清除浓雾	Flying	1	0
+M	Trick Room	戏法空间	Psychic	1	0
+M	Draco Meteor	流星群	Dragon	3	130
+M	Discharge	放电	Electric	3	80
+M	Lava Plume	喷烟	Fire	3	80
+M	Leaf Storm	飞叶风暴	Grass	3	130
+M	Power Whip	强力鞭打	Grass	2	120
+M	Rock Wrecker	岩石炮	Rock	2	150
+M	Cross Poison	十字毒刃	Poison	2	70
+M	Gunk Shot	垃圾射击	Poison	2	120
+M	Iron Head	铁头	Steel	2	80
+M	Magnet Bomb	磁铁炸弹	Steel	2	60
+M	Stone Edge	尖石攻击	Rock	2	100
+M	Captivate	诱惑	Normal	1	0
+M	Stealth Rock	隐形岩	Rock	1	0
+M	Grass Knot	打草结	Grass	3	0
+M	Chatter	喋喋不休	Flying	3	65
+M	Judgment	制裁光砾	Normal	3	100
+M	Bug Bite	虫咬	Bug	2	60
+M	Charge Beam	充电光束	Electric	3	50
+M	Wood Hammer	木槌	Grass	2	120
+M	Aqua Jet	水流喷射	Water	2	40
+M	Attack Order	攻击指令	Bug	2	90
+M	Defend Order	防御指令	Bug	1	0
+M	Heal Order	回复指令	Bug	1	0
+M	Head Smash	双刃头锤	Rock	2	150
+M	Double Hit	二连击	Normal	2	35
+M	Roar of Time	时光咆哮	Dragon	3	150
+M	Spacial Rend	亚空裂斩	Dragon	3	100
+M	Lunar Dance	新月舞	Psychic	1	0
+M	Crush Grip	捏碎	Normal	2	0
+M	Magma Storm	熔岩风暴	Fire	3	100
+M	Dark Void	暗黑洞	Dark	1	0
+M	Seed Flare	种子闪光	Grass	3	120
+M	Ominous Wind	奇异之风	Ghost	3	60
+M	Shadow Force	暗影潜袭	Ghost	2	120
+M	Hone Claws	磨爪	Dark	1	0
+M	Wide Guard	广域防守	Rock	1	0
+M	Guard Split	防守平分	Psychic	1	0
+M	Power Split	力量平分	Psychic	1	0
+M	Wonder Room	奇妙空间	Psychic	1	0
+M	Psyshock	精神冲击	Psychic	3	80
+M	Venoshock	毒液冲击	Poison	3	65
+M	Autotomize	身体轻量化	Steel	1	0
+M	Rage Powder	愤怒粉	Bug	1	0
+M	Telekinesis	意念移物	Psychic	1	0
+M	Magic Room	魔法空间	Psychic	1	0
+M	Smack Down	击落	Rock	2	50
+M	Storm Throw	山岚摔	Fighting	2	60
+M	Flame Burst	烈焰溅射	Fire	3	70
+M	Sludge Wave	污泥波	Poison	3	95
+M	Quiver Dance	蝶舞	Bug	1	0
+M	Heavy Slam	重磅冲撞	Steel	2	0
+M	Synchronoise	同步干扰	Psychic	3	120
+M	Electro Ball	电球	Electric	3	0
+M	Soak	浸水	Water	1	0
+M	Flame Charge	蓄能焰袭	Fire	2	50
+M	Coil	盘蜷	Poison	1	0
+M	Low Sweep	下盘踢	Fighting	2	65
+M	Acid Spray	酸液炸弹	Poison	3	40
+M	Foul Play	欺诈	Dark	2	95
+M	Simple Beam	单纯光束	Normal	1	0
+M	Entrainment	找伙伴	Normal	1	0
+M	After You	您先请	Normal	1	0
+M	Round	轮唱	Normal	3	60
+M	Echoed Voice	回声	Normal	3	40
+M	Chip Away	逐步击破	Normal	2	70
+M	Clear Smog	清除之烟	Poison	3	50
+M	Stored Power	辅助力量	Psychic	3	20
+M	Quick Guard	快速防守	Fighting	1	0
+M	Ally Switch	交换场地	Psychic	1	0
+M	Scald	热水	Water	3	80
+M	Shell Smash	破壳	Normal	1	0
+M	Heal Pulse	治愈波动	Psychic	1	0
+M	Hex	祸不单行	Ghost	3	65
+M	Sky Drop	自由落体	Flying	2	60
+M	Shift Gear	换档	Steel	1	0
+M	Circle Throw	巴投	Fighting	2	60
+M	Incinerate	烧尽	Fire	3	60
+M	Quash	延后	Dark	1	0
+M	Acrobatics	杂技	Flying	2	55
+M	Reflect Type	镜面属性	Normal	1	0
+M	Retaliate	报仇	Normal	2	70
+M	Final Gambit	搏命	Fighting	3	0
+M	Bestow	传递礼物	Normal	1	0
+M	Inferno	炼狱	Fire	3	100
+M	Water Pledge	水之誓约	Water	3	80
+M	Fire Pledge	火之誓约	Fire	3	80
+M	Grass Pledge	草之誓约	Grass	3	80
+M	Volt Switch	伏特替换	Electric	3	70
+M	Struggle Bug	虫之抵抗	Bug	3	50
+M	Bulldoze	重踏	Ground	2	60
+M	Frost Breath	冰息	Ice	3	60
+M	Dragon Tail	龙尾	Dragon	2	60
+M	Work Up	自我激励	Normal	1	0
+M	Electroweb	电网	Electric	3	55
+M	Wild Charge	疯狂伏特	Electric	2	90
+M	Drill Run	直冲钻	Ground	2	80
+M	Dual Chop	二连劈	Dragon	2	40
+M	Heart Stamp	爱心印章	Psychic	2	60
+M	Horn Leech	木角	Grass	2	75
+M	Sacred Sword	圣剑	Fighting	2	90
+M	Razor Shell	贝壳刃	Water	2	75
+M	Heat Crash	高温重压	Fire	2	0
+M	Leaf Tornado	青草搅拌器	Grass	3	65
+M	Steamroller	疯狂滚压	Bug	2	65
+M	Cotton Guard	棉花防守	Grass	1	0
+M	Night Daze	暗黑爆破	Dark	3	85
+M	Psystrike	精神击破	Psychic	3	100
+M	Tail Slap	扫尾拍打	Normal	2	25
+M	Hurricane	暴风	Flying	3	110
+M	Head Charge	爆炸头突击	Normal	2	120
+M	Gear Grind	齿轮飞盘	Steel	2	50
+M	Searing Shot	火焰弹	Fire	3	100
+M	Techno Blast	高科技光炮	Normal	3	120
+M	Relic Song	古老之歌	Normal	3	75
+M	Secret Sword	神秘之剑	Fighting	3	85
+M	Glaciate	冰封世界	Ice	3	65
+M	Bolt Strike	雷击	Electric	2	130
+M	Blue Flare	青焰	Fire	3	130
+M	Fiery Dance	火之舞	Fire	3	80
+M	Freeze Shock	冰冻伏特	Ice	2	140
+M	Ice Burn	极寒冷焰	Ice	3	140
+M	Snarl	大声咆哮	Dark	3	55
+M	Icicle Crash	冰柱坠击	Ice	2	85
+M	V-create	Ｖ热焰	Fire	2	180
+M	Fusion Flare	交错火焰	Fire	3	100
+M	Fusion Bolt	交错闪电	Electric	2	100
+M	Flying Press	飞身重压	Fighting	2	100
+M	Mat Block	掀榻榻米	Fighting	1	0
+M	Belch	打嗝	Poison	3	120
+M	Rototiller	耕地	Ground	1	0
+M	Sticky Web	黏黏网	Bug	1	0
+M	Fell Stinger	致命针刺	Bug	2	50
+M	Phantom Force	潜灵奇袭	Ghost	2	90
+M	Trick-or-Treat	万圣夜	Ghost	1	0
+M	Noble Roar	战吼	Normal	1	0
+M	Ion Deluge	等离子浴	Electric	1	0
+M	Parabolic Charge	抛物面充电	Electric	3	65
+M	Forest’s Curse	森林诅咒	Grass	1	0
+M	Petal Blizzard	落英缤纷	Grass	2	90
+M	Freeze-Dry	冷冻干燥	Ice	3	70
+M	Disarming Voice	魅惑之声	Fairy	3	40
+M	Parting Shot	抛下狠话	Dark	1	0
+M	Topsy-Turvy	颠倒	Dark	1	0
+M	Draining Kiss	吸取之吻	Fairy	3	50
+M	Crafty Shield	戏法防守	Fairy	1	0
+M	Flower Shield	鲜花防守	Fairy	1	0
+M	Grassy Terrain	青草场地	Grass	1	0
+M	Misty Terrain	薄雾场地	Fairy	1	0
+M	Electrify	输电	Electric	1	0
+M	Play Rough	嬉闹	Fairy	2	90
+M	Fairy Wind	妖精之风	Fairy	3	40
+M	Moonblast	月亮之力	Fairy	3	95
+M	Boomburst	爆音波	Normal	3	140
+M	Fairy Lock	妖精之锁	Fairy	1	0
+M	King’s Shield	王者盾牌	Steel	1	0
+M	Play Nice	和睦相处	Normal	1	0
+M	Confide	密语	Normal	1	0
+M	Diamond Storm	钻石风暴	Rock	2	100
+M	Steam Eruption	蒸汽爆炸	Water	3	110
+M	Hyperspace Hole	异次元洞	Psychic	3	80
+M	Water Shuriken	飞水手里剑	Water	3	15
+M	Mystical Fire	魔法火焰	Fire	3	75
+M	Spiky Shield	尖刺防守	Grass	1	0
+M	Aromatic Mist	芳香薄雾	Fairy	1	0
+M	Eerie Impulse	怪异电波	Electric	1	0
+M	Venom Drench	毒液陷阱	Poison	1	0
+M	Powder	粉尘	Bug	1	0
+M	Geomancy	大地掌控	Fairy	1	0
+M	Magnetic Flux	磁场操控	Electric	1	0
+M	Happy Hour	欢乐时光	Normal	1	0
+M	Electric Terrain	电气场地	Electric	1	0
+M	Dazzling Gleam	魔法闪耀	Fairy	3	80
+M	Celebrate	庆祝	Normal	1	0
+M	Hold Hands	牵手	Normal	1	0
+M	Baby-Doll Eyes	圆瞳	Fairy	1	0
+M	Nuzzle	蹭蹭脸颊	Electric	2	20
+M	Hold Back	手下留情	Normal	2	40
+M	Infestation	死缠烂打	Bug	3	20
+M	Power-Up Punch	增强拳	Fighting	2	40
+M	Oblivion Wing	死亡之翼	Flying	3	80
+M	Thousand Arrows	千箭齐发	Ground	2	90
+M	Thousand Waves	千波激荡	Ground	2	90
+M	Land’s Wrath	大地神力	Ground	2	90
+M	Light of Ruin	破灭之光	Fairy	3	140
+M	Origin Pulse	根源波动	Water	3	110
+M	Precipice Blades	断崖之剑	Ground	2	120
+M	Dragon Ascent	画龙点睛	Flying	2	120
+M	Hyperspace Fury	异次元猛攻	Dark	2	100
+M	Breakneck Blitz	究极无敌大冲撞	Normal	2	0
+M	Breakneck Blitz	究极无敌大冲撞	Normal	3	0
+M	All-Out Pummeling	全力无双激烈拳	Fighting	2	0
+M	All-Out Pummeling	全力无双激烈拳	Fighting	3	0
+M	Supersonic Skystrike	极速俯冲轰烈撞	Flying	2	0
+M	Supersonic Skystrike	极速俯冲轰烈撞	Flying	3	0
+M	Acid Downpour	强酸剧毒灭绝雨	Poison	2	0
+M	Acid Downpour	强酸剧毒灭绝雨	Poison	3	0
+M	Tectonic Rage	地隆啸天大终结	Ground	2	0
+M	Tectonic Rage	地隆啸天大终结	Ground	3	0
+M	Continental Crush	毁天灭地巨岩坠	Rock	2	0
+M	Continental Crush	毁天灭地巨岩坠	Rock	3	0
+M	Savage Spin-Out	绝对捕食回旋斩	Bug	2	0
+M	Savage Spin-Out	绝对捕食回旋斩	Bug	3	0
+M	Never-Ending Nightmare	无尽暗夜之诱惑	Ghost	2	0
+M	Never-Ending Nightmare	无尽暗夜之诱惑	Ghost	3	0
+M	Corkscrew Crash	超绝螺旋连击	Steel	2	0
+M	Corkscrew Crash	超绝螺旋连击	Steel	3	0
+M	Inferno Overdrive	超强极限爆焰弹	Fire	2	0
+M	Inferno Overdrive	超强极限爆焰弹	Fire	3	0
+M	Hydro Vortex	超级水流大漩涡	Water	2	0
+M	Hydro Vortex	超级水流大漩涡	Water	3	0
+M	Bloom Doom	绚烂缤纷花怒放	Grass	2	0
+M	Bloom Doom	绚烂缤纷花怒放	Grass	3	0
+M	Gigavolt Havoc	终极伏特狂雷闪	Electric	2	0
+M	Gigavolt Havoc	终极伏特狂雷闪	Electric	3	0
+M	Shattered Psyche	至高精神破坏波	Psychic	2	0
+M	Shattered Psyche	至高精神破坏波	Psychic	3	0
+M	Subzero Slammer	激狂大地万里冰	Ice	2	0
+M	Subzero Slammer	激狂大地万里冰	Ice	3	0
+M	Devastating Drake	究极巨龙震天地	Dragon	2	0
+M	Devastating Drake	究极巨龙震天地	Dragon	3	0
+M	Black Hole Eclipse	黑洞吞噬万物灭	Dark	2	0
+M	Black Hole Eclipse	黑洞吞噬万物灭	Dark	3	0
+M	Twinkle Tackle	可爱星星飞天撞	Fairy	2	0
+M	Twinkle Tackle	可爱星星飞天撞	Fairy	3	0
+M	Catastropika	皮卡皮卡必杀击	Electric	2	210
+M	Shore Up	集沙	Ground	1	0
+M	First Impression	迎头一击	Bug	2	90
+M	Baneful Bunker	碉堡	Poison	1	0
+M	Spirit Shackle	缝影	Ghost	2	80
+M	Darkest Lariat	ＤＤ金勾臂	Dark	2	85
+M	Sparkling Aria	泡影的咏叹调	Water	3	90
+M	Ice Hammer	冰锤	Ice	2	100
+M	Floral Healing	花疗	Fairy	1	0
+M	High Horsepower	十万马力	Ground	2	95
+M	Strength Sap	吸取力量	Grass	1	0
+M	Solar Blade	日光刃	Grass	2	125
+M	Leafage	树叶	Grass	2	40
+M	Spotlight	聚光灯	Normal	1	0
+M	Toxic Thread	毒丝	Poison	1	0
+M	Laser Focus	磨砺	Normal	1	0
+M	Gear Up	辅助齿轮	Steel	1	0
+M	Throat Chop	地狱突刺	Dark	2	80
+M	Pollen Puff	花粉团	Bug	3	90
+M	Anchor Shot	掷锚	Steel	2	80
+M	Psychic Terrain	精神场地	Psychic	1	0
+M	Lunge	猛扑	Bug	2	80
+M	Fire Lash	火焰鞭	Fire	2	80
+M	Power Trip	嚣张	Dark	2	20
+M	Burn Up	燃尽	Fire	3	130
+M	Speed Swap	速度互换	Psychic	1	0
+M	Smart Strike	修长之角	Steel	2	70
+M	Purify	净化	Poison	1	0
+M	Revelation Dance	觉醒之舞	Normal	3	90
+M	Core Enforcer	核心惩罚者	Dragon	3	100
+M	Trop Kick	热带踢	Grass	2	70
+M	Instruct	号令	Psychic	1	0
+M	Beak Blast	鸟嘴加农炮	Flying	2	100
+M	Clanging Scales	鳞片噪音	Dragon	3	110
+M	Dragon Hammer	龙锤	Dragon	2	90
+M	Brutal Swing	狂舞挥打	Dark	2	60
+M	Aurora Veil	极光幕	Ice	1	0
+M	Sinister Arrow Raid	遮天蔽日暗影箭	Ghost	2	180
+M	Malicious Moonsault	极恶飞跃粉碎击	Dark	2	180
+M	Oceanic Operetta	海神庄严交响乐	Water	3	195
+M	Guardian of Alola	巨人卫士・阿罗拉	Fairy	3	0
+M	Soul-Stealing 7-Star Strike	七星夺魂腿	Ghost	2	195
+M	Stoked Sparksurfer	驾雷驭电戏冲浪	Electric	3	175
+M	Pulverizing Pancake	认真起来大爆击	Normal	2	210
+M	Extreme Evoboost	九彩升华齐聚顶	Normal	1	0
+M	Genesis Supernova	起源超新星大爆炸	Psychic	3	185
+M	Shell Trap	陷阱甲壳	Fire	3	150
+M	Fleur Cannon	花朵加农炮	Fairy	3	130
+M	Psychic Fangs	精神之牙	Psychic	2	85
+M	Stomping Tantrum	跺脚	Ground	2	75
+M	Shadow Bone	暗影之骨	Ghost	2	85
+M	Accelerock	冲岩	Rock	2	40
+M	Liquidation	水流裂破	Water	2	85
+M	Prismatic Laser	棱镜镭射	Psychic	3	160
+M	Spectral Thief	暗影偷盗	Ghost	2	90
+M	Sunsteel Strike	流星闪冲	Steel	2	100
+M	Moongeist Beam	暗影之光	Ghost	3	100
+M	Tearful Look	泪眼汪汪	Normal	1	0
+M	Zing Zap	麻麻刺刺	Electric	2	80
+M	Nature’s Madness	自然之怒	Fairy	3	0
+M	Multi-Attack	多属性攻击	Normal	2	120
+M	10,000,000 Volt Thunderbolt	千万伏特	Electric	3	195
+M	Mind Blown	惊爆大头	Fire	3	150
+M	Plasma Fists	等离子闪电拳	Electric	2	100
+M	Photon Geyser	光子喷涌	Psychic	3	100
+M	Light That Burns the Sky	焚天灭世炽光爆	Psychic	3	200
+M	Searing Sunraze Smash	日光回旋下苍穹	Steel	2	200
+M	Menacing Moonraze Maelstrom	月华飞溅落灵霄	Ghost	3	200
+M	Let’s Snuggle Forever	亲密无间大乱揍	Fairy	2	190
+M	Splintered Stormshards	狼啸石牙飓风暴	Rock	2	190
+M	Clangorous Soulblaze	炽魂热舞烈音爆	Dragon	3	185
+M	Zippy Zap	电电加速	Electric	2	80
+M	Splishy Splash	滔滔冲浪	Water	3	90
+M	Floaty Fall	飘飘坠落	Flying	2	90
+M	Pika Papow	闪闪雷光	Electric	3	0
+M	Bouncy Bubble	活活气泡	Water	3	60
+M	Buzzy Buzz	麻麻电击	Electric	3	60
+M	Sizzly Slide	熊熊火爆	Fire	2	60
+M	Glitzy Glow	哗哗气场	Psychic	3	80
+M	Baddy Bad	坏坏领域	Dark	3	80
+M	Sappy Seed	茁茁轰炸	Grass	2	100
+M	Freezy Frost	冰冰霜冻	Ice	3	100
+M	Sparkly Swirl	亮亮风暴	Fairy	3	120
+M	Veevee Volley	砰砰击破	Normal	2	0
+M	Double Iron Bash	钢拳双击	Steel	2	60
+M	Max Guard	极巨防壁	Normal	1	0
+M	Dynamax Cannon	极巨炮	Dragon	3	100
+M	Snipe Shot	狙击	Water	3	80
+M	Jaw Lock	紧咬不放	Dark	2	80
+M	Stuff Cheeks	大快朵颐	Normal	1	0
+M	No Retreat	背水一战	Fighting	1	0
+M	Tar Shot	沥青射击	Rock	1	0
+M	Magic Powder	魔法粉	Psychic	1	0
+M	Dragon Darts	龙箭	Dragon	2	50
+M	Teatime	茶会	Normal	1	0
+M	Octolock	蛸固	Fighting	1	0
+M	Bolt Beak	电喙	Electric	2	85
+M	Fishious Rend	鳃咬	Water	2	85
+M	Court Change	换场	Normal	1	0
+M	Max Flare	极巨火爆	Fire	2	100
+M	Max Flutterby	极巨虫蛊	Bug	2	10
+M	Max Lightning	极巨闪电	Electric	2	10
+M	Max Strike	极巨攻击	Normal	2	10
+M	Max Knuckle	极巨拳斗	Fighting	2	10
+M	Max Phantasm	极巨幽魂	Ghost	2	10
+M	Max Hailstorm	极巨寒冰	Ice	2	10
+M	Max Ooze	极巨酸毒	Poison	2	10
+M	Max Geyser	极巨水流	Water	2	10
+M	Max Airstream	极巨飞冲	Flying	2	10
+M	Max Starfall	极巨妖精	Fairy	2	10
+M	Max Wyrmwind	极巨龙骑	Dragon	2	10
+M	Max Mindstorm	极巨超能	Psychic	2	10
+M	Max Rockfall	极巨岩石	Rock	2	10
+M	Max Quake	极巨大地	Ground	2	10
+M	Max Darkness	极巨恶霸	Dark	2	10
+M	Max Overgrowth	极巨草原	Grass	2	10
+M	Max Steelspike	极巨钢铁	Steel	2	10
+M	Clangorous Soul	魂舞烈音爆	Dragon	1	0
+M	Body Press	扑击	Fighting	2	80
+M	Decorate	装饰	Fairy	1	0
+M	Drum Beating	鼓击	Grass	2	80
+M	Snap Trap	捕兽夹	Grass	2	35
+M	Pyro Ball	火焰球	Fire	2	120
+M	Behemoth Blade	巨兽斩	Steel	2	100
+M	Behemoth Bash	巨兽弹	Steel	2	100
+M	Aura Wheel	气场轮	Electric	2	110
+M	Breaking Swipe	广域破坏	Dragon	2	60
+M	Branch Poke	木枝突刺	Grass	2	40
+M	Overdrive	破音	Electric	3	80
+M	Apple Acid	苹果酸	Grass	3	80
+M	Grav Apple	万有引力	Grass	2	80
+M	Spirit Break	灵魂冲击	Fairy	2	75
+M	Strange Steam	神奇蒸汽	Fairy	3	90
+M	Life Dew	生命水滴	Water	1	0
+M	Obstruct	拦堵	Dark	1	0
+M	False Surrender	假跪真撞	Dark	2	80
+M	Meteor Assault	流星突击	Fighting	2	150
+M	Eternabeam	无极光束	Dragon	3	160
+M	Steel Beam	铁蹄光线	Steel	3	140
+M	Expanding Force	广域战力	Psychic	3	80
+M	Steel Roller	铁滚轮	Steel	2	130
+M	Scale Shot	鳞射	Dragon	2	25
+M	Meteor Beam	流星光束	Rock	3	120
+M	Shell Side Arm	臂贝武器	Poison	3	90
+M	Misty Explosion	薄雾炸裂	Fairy	3	100
+M	Grassy Glide	青草滑梯	Grass	2	55
+M	Rising Voltage	电力上升	Electric	3	70
+M	Terrain Pulse	大地波动	Normal	3	50
+M	Skitter Smack	爬击	Bug	2	70
+M	Burning Jealousy	妒火	Fire	3	70
+M	Lash Out	泄愤	Dark	2	75
+M	Poltergeist	灵骚	Ghost	2	110
+M	Corrosive Gas	腐蚀气体	Poison	1	0
+M	Coaching	指导	Fighting	1	0
+M	Flip Turn	快速折返	Water	2	60
+M	Triple Axel	三旋击	Ice	2	20
+M	Dual Wingbeat	双翼	Flying	2	40
+M	Scorching Sands	热沙大地	Ground	3	70
+M	Jungle Healing	丛林治疗	Grass	1	0
+M	Wicked Blow	暗冥强击	Dark	2	75
+M	Surging Strikes	水流连打	Water	2	25
+M	Thunder Cage	雷电囚笼	Electric	3	80
+M	Dragon Energy	巨龙威能	Dragon	3	150
+M	Freezing Glare	冰冷视线	Psychic	3	90
+M	Fiery Wrath	怒火中烧	Dark	3	90
+M	Thunderous Kick	雷鸣蹴击	Fighting	2	90
+M	Glacial Lance	雪矛	Ice	2	120
+M	Astral Barrage	星碎	Ghost	3	120
+M	Eerie Spell	诡异咒语	Psychic	3	80
+M	Dire Claw	克命爪	Poison	2	80
+M	Psyshield Bash	屏障猛攻	Psychic	2	70
+M	Power Shift	力量转换	Normal	1	0
+M	Stone Axe	岩斧	Rock	2	65
+M	Springtide Storm	阳春风暴	Fairy	3	100
+M	Mystical Power	神秘之力	Psychic	3	70
+M	Raging Fury	大愤慨	Fire	2	120
+M	Wave Crash	波动冲	Water	2	120
+M	Chloroblast	叶绿爆震	Grass	3	150
+M	Mountain Gale	冰山风	Ice	2	100
+M	Victory Dance	胜利之舞	Fighting	1	0
+M	Headlong Rush	突飞猛扑	Ground	2	120
+M	Barb Barrage	毒千针	Poison	2	60
+M	Esper Wing	气场之翼	Psychic	3	80
+M	Bitter Malice	冤冤相报	Ghost	3	75
+M	Shelter	闭关	Steel	1	0
+M	Triple Arrows	三连箭	Fighting	2	90
+M	Infernal Parade	群魔乱舞	Ghost	3	60
+M	Ceaseless Edge	秘剑・千重涛	Dark	2	65
+M	Bleakwind Storm	枯叶风暴	Flying	3	100
+M	Wildbolt Storm	鸣雷风暴	Electric	3	100
+M	Sandsear Storm	热沙风暴	Ground	3	100
+M	Lunar Blessing	新月祈祷	Psychic	1	0
+M	Take Heart	勇气填充	Psychic	1	0
+M	Tera Blast	太晶爆发	Normal	3	80
+M	Silk Trap	线阱	Bug	1	0
+M	Axe Kick	下压踢	Fighting	2	120
+M	Last Respects	扫墓	Ghost	2	50
+M	Lumina Crash	琉光冲激	Psychic	3	80
+M	Order Up	上菜	Dragon	2	80
+M	Jet Punch	喷射拳	Water	2	60
+M	Spicy Extract	辣椒精华	Grass	1	0
+M	Spin Out	疾速转轮	Steel	2	100
+M	Population Bomb	鼠数儿	Normal	2	20
+M	Ice Spinner	冰旋	Ice	2	80
+M	Glaive Rush	巨剑突击	Dragon	2	120
+M	Revival Blessing	复生祈祷	Normal	1	0
+M	Salt Cure	盐腌	Rock	2	40
+M	Triple Dive	三连钻	Water	2	30
+M	Mortal Spin	晶光转转	Poison	2	30
+M	Doodle	描绘	Normal	1	0
+M	Fillet Away	甩肉	Normal	1	0
+M	Kowtow Cleave	仆刀	Dark	2	85
+M	Flower Trick	千变万花	Grass	2	70
+M	Torch Song	闪焰高歌	Fire	3	80
+M	Aqua Step	流水旋舞	Water	2	80
+M	Raging Bull	怒牛	Normal	2	90
+M	Make It Rain	淘金潮	Steel	3	120
+M	Psyblade	精神剑	Psychic	2	80
+M	Hydro Steam	水蒸气	Water	3	80
+M	Ruination	大灾难	Dark	3	1
+M	Collision Course	全开猛撞	Fighting	2	100
+M	Electro Drift	闪电猛冲	Electric	3	100
+M	Shed Tail	断尾	Normal	1	0
+M	Chilly Reception	冷笑话	Ice	1	0
+M	Tidy Up	大扫除	Normal	1	0
+M	Snowscape	雪景	Ice	1	0
+M	Pounce	虫扑	Bug	2	50
+M	Trailblaze	起草	Grass	2	50
+M	Chilling Water	泼冷水	Water	3	50
+M	Hyper Drill	强力钻	Normal	2	100
+M	Twin Beam	双光束	Psychic	3	40
+M	Rage Fist	愤怒之拳	Ghost	2	50
+M	Armor Cannon	铠农炮	Fire	3	120
+M	Bitter Blade	悔念剑	Fire	2	90
+M	Double Shock	电光双击	Electric	2	120
+M	Gigaton Hammer	巨力锤	Steel	2	160
+M	Comeuppance	复仇	Dark	2	1
+M	Aqua Cutter	水波刀	Water	2	70
+M	Blazing Torque	灼热暴冲	Fire	2	80
+M	Wicked Torque	黑暗暴冲	Dark	2	80
+M	Noxious Torque	剧毒暴冲	Poison	2	100
+M	Combat Torque	格斗暴冲	Fighting	2	100
+M	Magical Torque	魔法暴冲	Fairy	2	100
+M	Blood Moon	血月	Normal	3	140
+M	Matcha Gotcha	刷刷茶炮	Grass	3	80
+M	Syrup Bomb	糖浆炸弹	Grass	3	60
+M	Ivy Cudgel	棘藤棒	Grass	2	100
+M	Electro Shot	电光束	Electric	3	130
+M	Tera Starstorm	晶光星群	Normal	3	120
+M	Fickle Beam	随机光	Dragon	3	80
+M	Burning Bulwark	火焰守护	Fire	1	0
+M	Thunderclap	迅雷	Electric	3	70
+M	Mighty Cleave	强刃攻击	Rock	2	95
+M	Tachyon Cutter	迅子利刃	Steel	3	50
+M	Hard Press	硬压	Steel	2	0
+M	Dragon Cheer	龙声鼓舞	Dragon	1	0
+M	Alluring Voice	魅诱之声	Fairy	3	80
+M	Temper Flare	豁出去	Fire	2	75
+M	Supercell Slam	闪电强袭	Electric	2	100
+M	Psychic Noise	精神噪音	Psychic	3	75
+M	Upper Hand	快手还击	Fighting	2	65
+M	Malignant Chain	邪毒锁链	Poison	3	100
+P	Bulbasaur	妙蛙种子
+P	Ivysaur	妙蛙草
+P	Venusaur	妙蛙花
+P	Charmander	小火龙
+P	Charmeleon	火恐龙
+P	Charizard	喷火龙
+P	Squirtle	杰尼龟
+P	Wartortle	卡咪龟
+P	Blastoise	水箭龟
+P	Caterpie	绿毛虫
+P	Metapod	铁甲蛹
+P	Butterfree	巴大蝶
+P	Weedle	独角虫
+P	Kakuna	铁壳蛹
+P	Beedrill	大针蜂
+P	Pidgey	波波
+P	Pidgeotto	比比鸟
+P	Pidgeot	大比鸟
+P	Rattata	小拉达
+P	Raticate	拉达
+P	Spearow	烈雀
+P	Fearow	大嘴雀
+P	Ekans	阿柏蛇
+P	Arbok	阿柏怪
+P	Pikachu	皮卡丘
+P	Raichu	雷丘
+P	Sandshrew	穿山鼠
+P	Sandslash	穿山王
+P	Nidoran♀	尼多兰
+P	Nidorina	尼多娜
+P	Nidoqueen	尼多后
+P	Nidoran♂	尼多朗
+P	Nidorino	尼多力诺
+P	Nidoking	尼多王
+P	Clefairy	皮皮
+P	Clefable	皮可西
+P	Vulpix	六尾
+P	Ninetales	九尾
+P	Jigglypuff	胖丁
+P	Wigglytuff	胖可丁
+P	Zubat	超音蝠
+P	Golbat	大嘴蝠
+P	Oddish	走路草
+P	Gloom	臭臭花
+P	Vileplume	霸王花
+P	Paras	派拉斯
+P	Parasect	派拉斯特
+P	Venonat	毛球
+P	Venomoth	摩鲁蛾
+P	Diglett	地鼠
+P	Dugtrio	三地鼠
+P	Meowth	喵喵
+P	Persian	猫老大
+P	Psyduck	可达鸭
+P	Golduck	哥达鸭
+P	Mankey	猴怪
+P	Primeape	火暴猴
+P	Growlithe	卡蒂狗
+P	Arcanine	风速狗
+P	Poliwag	蚊香蝌蚪
+P	Poliwhirl	蚊香君
+P	Poliwrath	蚊香泳士
+P	Abra	凯西
+P	Kadabra	勇基拉
+P	Alakazam	胡地
+P	Machop	腕力
+P	Machoke	豪力
+P	Machamp	怪力
+P	Bellsprout	喇叭芽
+P	Weepinbell	口呆花
+P	Victreebel	大食花
+P	Tentacool	玛瑙水母
+P	Tentacruel	毒刺水母
+P	Geodude	小拳石
+P	Graveler	隆隆石
+P	Golem	隆隆岩
+P	Ponyta	小火马
+P	Rapidash	烈焰马
+P	Slowpoke	呆呆兽
+P	Slowbro	呆壳兽
+P	Magnemite	小磁怪
+P	Magneton	三合一磁怪
+P	Farfetch’d	大葱鸭
+P	Doduo	嘟嘟
+P	Dodrio	嘟嘟利
+P	Seel	小海狮
+P	Dewgong	白海狮
+P	Grimer	臭泥
+P	Muk	臭臭泥
+P	Shellder	大舌贝
+P	Cloyster	刺甲贝
+P	Gastly	鬼斯
+P	Haunter	鬼斯通
+P	Gengar	耿鬼
+P	Onix	大岩蛇
+P	Drowzee	催眠貘
+P	Hypno	引梦貘人
+P	Krabby	大钳蟹
+P	Kingler	巨钳蟹
+P	Voltorb	霹雳电球
+P	Electrode	顽皮雷弹
+P	Exeggcute	蛋蛋
+P	Exeggutor	椰蛋树
+P	Cubone	卡拉卡拉
+P	Marowak	嘎啦嘎啦
+P	Hitmonlee	飞腿郎
+P	Hitmonchan	快拳郎
+P	Lickitung	大舌头
+P	Koffing	瓦斯弹
+P	Weezing	双弹瓦斯
+P	Rhyhorn	独角犀牛
+P	Rhydon	钻角犀兽
+P	Chansey	吉利蛋
+P	Tangela	蔓藤怪
+P	Kangaskhan	袋兽
+P	Horsea	墨海马
+P	Seadra	海刺龙
+P	Goldeen	角金鱼
+P	Seaking	金鱼王
+P	Staryu	海星星
+P	Starmie	宝石海星
+P	Mr. Mime	魔墙人偶
+P	Scyther	飞天螳螂
+P	Jynx	迷唇姐
+P	Electabuzz	电击兽
+P	Magmar	鸭嘴火兽
+P	Pinsir	凯罗斯
+P	Tauros	肯泰罗
+P	Magikarp	鲤鱼王
+P	Gyarados	暴鲤龙
+P	Lapras	拉普拉斯
+P	Ditto	百变怪
+P	Eevee	伊布
+P	Vaporeon	水伊布
+P	Jolteon	雷伊布
+P	Flareon	火伊布
+P	Porygon	多边兽
+P	Omanyte	菊石兽
+P	Omastar	多刺菊石兽
+P	Kabuto	化石盔
+P	Kabutops	镰刀盔
+P	Aerodactyl	化石翼龙
+P	Snorlax	卡比兽
+P	Articuno	急冻鸟
+P	Zapdos	闪电鸟
+P	Moltres	火焰鸟
+P	Dratini	迷你龙
+P	Dragonair	哈克龙
+P	Dragonite	快龙
+P	Mewtwo	超梦
+P	Mew	梦幻
+P	Chikorita	菊草叶
+P	Bayleef	月桂叶
+P	Meganium	大竺葵
+P	Cyndaquil	火球鼠
+P	Quilava	火岩鼠
+P	Typhlosion	火暴兽
+P	Totodile	小锯鳄
+P	Croconaw	蓝鳄
+P	Feraligatr	大力鳄
+P	Sentret	尾立
+P	Furret	大尾立
+P	Hoothoot	咕咕
+P	Noctowl	猫头夜鹰
+P	Ledyba	芭瓢虫
+P	Ledian	安瓢虫
+P	Spinarak	圆丝蛛
+P	Ariados	阿利多斯
+P	Crobat	叉字蝠
+P	Chinchou	灯笼鱼
+P	Lanturn	电灯怪
+P	Pichu	皮丘
+P	Cleffa	皮宝宝
+P	Igglybuff	宝宝丁
+P	Togepi	波克比
+P	Togetic	波克基古
+P	Natu	天然雀
+P	Xatu	天然鸟
+P	Mareep	咩利羊
+P	Flaaffy	茸茸羊
+P	Ampharos	电龙
+P	Bellossom	美丽花
+P	Marill	玛力露
+P	Azumarill	玛力露丽
+P	Sudowoodo	树才怪
+P	Politoed	蚊香蛙皇
+P	Hoppip	毽子草
+P	Skiploom	毽子花
+P	Jumpluff	毽子棉
+P	Aipom	长尾怪手
+P	Sunkern	向日种子
+P	Sunflora	向日花怪
+P	Yanma	蜻蜻蜓
+P	Wooper	乌波
+P	Quagsire	沼王
+P	Espeon	太阳伊布
+P	Umbreon	月亮伊布
+P	Murkrow	黑暗鸦
+P	Slowking	呆呆王
+P	Misdreavus	梦妖
+P	Unown	未知图腾
+P	Wobbuffet	果然翁
+P	Girafarig	麒麟奇
+P	Pineco	榛果球
+P	Forretress	佛烈托斯
+P	Dunsparce	土龙弟弟
+P	Gligar	天蝎
+P	Steelix	大钢蛇
+P	Snubbull	布鲁
+P	Granbull	布鲁皇
+P	Qwilfish	千针鱼
+P	Scizor	巨钳螳螂
+P	Shuckle	壶壶
+P	Heracross	赫拉克罗斯
+P	Sneasel	狃拉
+P	Teddiursa	熊宝宝
+P	Ursaring	圈圈熊
+P	Slugma	熔岩虫
+P	Magcargo	熔岩蜗牛
+P	Swinub	小山猪
+P	Piloswine	长毛猪
+P	Corsola	太阳珊瑚
+P	Remoraid	铁炮鱼
+P	Octillery	章鱼桶
+P	Delibird	信使鸟
+P	Mantine	巨翅飞鱼
+P	Skarmory	盔甲鸟
+P	Houndour	戴鲁比
+P	Houndoom	黑鲁加
+P	Kingdra	刺龙王
+P	Phanpy	小小象
+P	Donphan	顿甲
+P	Porygon2	多边兽２型
+P	Stantler	惊角鹿
+P	Smeargle	图图犬
+P	Tyrogue	无畏小子
+P	Hitmontop	战舞郎
+P	Smoochum	迷唇娃
+P	Elekid	电击怪
+P	Magby	鸭嘴宝宝
+P	Miltank	大奶罐
+P	Blissey	幸福蛋
+P	Raikou	雷公
+P	Entei	炎帝
+P	Suicune	水君
+P	Larvitar	幼基拉斯
+P	Pupitar	沙基拉斯
+P	Tyranitar	班基拉斯
+P	Lugia	洛奇亚
+P	Ho-Oh	凤王
+P	Celebi	时拉比
+P	Treecko	木守宫
+P	Grovyle	森林蜥蜴
+P	Sceptile	蜥蜴王
+P	Torchic	火稚鸡
+P	Combusken	力壮鸡
+P	Blaziken	火焰鸡
+P	Mudkip	水跃鱼
+P	Marshtomp	沼跃鱼
+P	Swampert	巨沼怪
+P	Poochyena	土狼犬
+P	Mightyena	大狼犬
+P	Zigzagoon	蛇纹熊
+P	Linoone	直冲熊
+P	Wurmple	刺尾虫
+P	Silcoon	甲壳茧
+P	Beautifly	狩猎凤蝶
+P	Cascoon	盾甲茧
+P	Dustox	毒粉蛾
+P	Lotad	莲叶童子
+P	Lombre	莲帽小童
+P	Ludicolo	乐天河童
+P	Seedot	橡实果
+P	Nuzleaf	长鼻叶
+P	Shiftry	狡猾天狗
+P	Taillow	傲骨燕
+P	Swellow	大王燕
+P	Wingull	长翅鸥
+P	Pelipper	大嘴鸥
+P	Ralts	拉鲁拉丝
+P	Kirlia	奇鲁莉安
+P	Gardevoir	沙奈朵
+P	Surskit	溜溜糖球
+P	Masquerain	雨翅蛾
+P	Shroomish	蘑蘑菇
+P	Breloom	斗笠菇
+P	Slakoth	懒人獭
+P	Vigoroth	过动猿
+P	Slaking	请假王
+P	Nincada	土居忍士
+P	Ninjask	铁面忍者
+P	Shedinja	脱壳忍者
+P	Whismur	咕妞妞
+P	Loudred	吼爆弹
+P	Exploud	爆音怪
+P	Makuhita	幕下力士
+P	Hariyama	铁掌力士
+P	Azurill	露力丽
+P	Nosepass	朝北鼻
+P	Skitty	向尾喵
+P	Delcatty	优雅猫
+P	Sableye	勾魂眼
+P	Mawile	大嘴娃
+P	Aron	可可多拉
+P	Lairon	可多拉
+P	Aggron	波士可多拉
+P	Meditite	玛沙那
+P	Medicham	恰雷姆
+P	Electrike	落雷兽
+P	Manectric	雷电兽
+P	Plusle	正电拍拍
+P	Minun	負电拍拍
+P	Volbeat	电萤虫
+P	Illumise	甜甜萤
+P	Roselia	毒蔷薇
+P	Gulpin	溶食兽
+P	Swalot	吞食兽
+P	Carvanha	利牙鱼
+P	Sharpedo	巨牙鲨
+P	Wailmer	吼吼鲸
+P	Wailord	吼鲸王
+P	Numel	呆火驼
+P	Camerupt	喷火驼
+P	Torkoal	煤炭龟
+P	Spoink	跳跳猪
+P	Grumpig	噗噗猪
+P	Spinda	晃晃斑
+P	Trapinch	大颚蚁
+P	Vibrava	超音波幼虫
+P	Flygon	沙漠蜻蜓
+P	Cacnea	刺球仙人掌
+P	Cacturne	梦歌仙人掌
+P	Swablu	青绵鸟
+P	Altaria	七夕青鸟
+P	Zangoose	猫鼬斩
+P	Seviper	饭匙蛇
+P	Lunatone	月石
+P	Solrock	太阳岩
+P	Barboach	泥泥鳅
+P	Whiscash	鲶鱼王
+P	Corphish	龙虾小兵
+P	Crawdaunt	铁螯龙虾
+P	Baltoy	天秤偶
+P	Claydol	念力土偶
+P	Lileep	触手百合
+P	Cradily	摇篮百合
+P	Anorith	太古羽虫
+P	Armaldo	太古盔甲
+P	Feebas	丑丑鱼
+P	Milotic	美纳斯
+P	Castform	飘浮泡泡
+P	Kecleon	变隐龙
+P	Shuppet	怨影娃娃
+P	Banette	诅咒娃娃
+P	Duskull	夜巡灵
+P	Dusclops	彷徨夜灵
+P	Tropius	热带龙
+P	Chimecho	风铃铃
+P	Absol	阿勃梭鲁
+P	Wynaut	小果然
+P	Snorunt	雪童子
+P	Glalie	冰鬼护
+P	Spheal	海豹球
+P	Sealeo	海魔狮
+P	Walrein	帝牙海狮
+P	Clamperl	珍珠贝
+P	Huntail	猎斑鱼
+P	Gorebyss	樱花鱼
+P	Relicanth	古空棘鱼
+P	Luvdisc	爱心鱼
+P	Bagon	宝贝龙
+P	Shelgon	甲壳龙
+P	Salamence	暴飞龙
+P	Beldum	铁哑铃
+P	Metang	金属怪
+P	Metagross	巨金怪
+P	Regirock	雷吉洛克
+P	Regice	雷吉艾斯
+P	Registeel	雷吉斯奇鲁
+P	Latias	拉帝亚斯
+P	Latios	拉帝欧斯
+P	Kyogre	盖欧卡
+P	Groudon	固拉多
+P	Rayquaza	烈空坐
+P	Jirachi	基拉祈
+P	Deoxys	代欧奇希斯
+P	Turtwig	草苗龟
+P	Grotle	树林龟
+P	Torterra	土台龟
+P	Chimchar	小火焰猴
+P	Monferno	猛火猴
+P	Infernape	烈焰猴
+P	Piplup	波加曼
+P	Prinplup	波皇子
+P	Empoleon	帝王拿波
+P	Starly	姆克儿
+P	Staravia	姆克鸟
+P	Staraptor	姆克鹰
+P	Bidoof	大牙狸
+P	Bibarel	大尾狸
+P	Kricketot	圆法师
+P	Kricketune	音箱蟀
+P	Shinx	小猫怪
+P	Luxio	勒克猫
+P	Luxray	伦琴猫
+P	Budew	含羞苞
+P	Roserade	罗丝雷朵
+P	Cranidos	头盖龙
+P	Rampardos	战槌龙
+P	Shieldon	盾甲龙
+P	Bastiodon	护城龙
+P	Burmy	结草儿
+P	Wormadam	结草贵妇
+P	Mothim	绅士蛾
+P	Combee	三蜜蜂
+P	Vespiquen	蜂女王
+P	Pachirisu	帕奇利兹
+P	Buizel	泳圈鼬
+P	Floatzel	浮潜鼬
+P	Cherubi	樱花宝
+P	Cherrim	樱花儿
+P	Shellos	无壳海兔
+P	Gastrodon	海兔兽
+P	Ambipom	双尾怪手
+P	Drifloon	飘飘球
+P	Drifblim	随风球
+P	Buneary	卷卷耳
+P	Lopunny	长耳兔
+P	Mismagius	梦妖魔
+P	Honchkrow	乌鸦头头
+P	Glameow	魅力喵
+P	Purugly	东施喵
+P	Chingling	铃铛响
+P	Stunky	臭鼬噗
+P	Skuntank	坦克臭鼬
+P	Bronzor	铜镜怪
+P	Bronzong	青铜钟
+P	Bonsly	盆才怪
+P	Mime Jr.	魔尼尼
+P	Happiny	小福蛋
+P	Chatot	聒噪鸟
+P	Spiritomb	花岩怪
+P	Gible	圆陆鲨
+P	Gabite	尖牙陆鲨
+P	Garchomp	烈咬陆鲨
+P	Munchlax	小卡比兽
+P	Riolu	利欧路
+P	Lucario	路卡利欧
+P	Hippopotas	沙河马
+P	Hippowdon	河马兽
+P	Skorupi	钳尾蝎
+P	Drapion	龙王蝎
+P	Croagunk	不良蛙
+P	Toxicroak	毒骷蛙
+P	Carnivine	尖牙笼
+P	Finneon	荧光鱼
+P	Lumineon	霓虹鱼
+P	Mantyke	小球飞鱼
+P	Snover	雪笠怪
+P	Abomasnow	暴雪王
+P	Weavile	玛狃拉
+P	Magnezone	自爆磁怪
+P	Lickilicky	大舌舔
+P	Rhyperior	超甲狂犀
+P	Tangrowth	巨蔓藤
+P	Electivire	电击魔兽
+P	Magmortar	鸭嘴炎兽
+P	Togekiss	波克基斯
+P	Yanmega	远古巨蜓
+P	Leafeon	叶伊布
+P	Glaceon	冰伊布
+P	Gliscor	天蝎王
+P	Mamoswine	象牙猪
+P	Porygon-Z	多边兽乙型
+P	Gallade	艾路雷朵
+P	Probopass	大朝北鼻
+P	Dusknoir	黑夜魔灵
+P	Froslass	雪妖女
+P	Rotom	洛托姆
+P	Uxie	由克希
+P	Mesprit	艾姆利多
+P	Azelf	亚克诺姆
+P	Dialga	帝牙卢卡
+P	Palkia	帕路奇亚
+P	Heatran	席多蓝恩
+P	Regigigas	雷吉奇卡斯
+P	Giratina	骑拉帝纳
+P	Cresselia	克雷色利亚
+P	Phione	霏欧纳
+P	Manaphy	玛纳霏
+P	Darkrai	达克莱伊
+P	Shaymin	谢米
+P	Arceus	阿尔宙斯
+P	Victini	比克提尼
+P	Snivy	藤藤蛇
+P	Servine	青藤蛇
+P	Serperior	君主蛇
+P	Tepig	暖暖猪
+P	Pignite	炒炒猪
+P	Emboar	炎武王
+P	Oshawott	水水獭
+P	Dewott	双刃丸
+P	Samurott	大剑鬼
+P	Patrat	探探鼠
+P	Watchog	步哨鼠
+P	Lillipup	小约克
+P	Herdier	哈约克
+P	Stoutland	长毛狗
+P	Purrloin	扒手猫
+P	Liepard	酷豹
+P	Pansage	花椰猴
+P	Simisage	花椰猿
+P	Pansear	爆香猴
+P	Simisear	爆香猿
+P	Panpour	冷水猴
+P	Simipour	冷水猿
+P	Munna	食梦梦
+P	Musharna	梦梦蚀
+P	Pidove	豆豆鸽
+P	Tranquill	咕咕鸽
+P	Unfezant	高傲雉鸡
+P	Blitzle	斑斑马
+P	Zebstrika	雷电斑马
+P	Roggenrola	石丸子
+P	Boldore	地幔岩
+P	Gigalith	庞岩怪
+P	Woobat	滚滚蝙蝠
+P	Swoobat	心蝙蝠
+P	Drilbur	螺钉地鼠
+P	Excadrill	龙头地鼠
+P	Audino	差不多娃娃
+P	Timburr	搬运小匠
+P	Gurdurr	铁骨土人
+P	Conkeldurr	修建老匠
+P	Tympole	圆蝌蚪
+P	Palpitoad	蓝蟾蜍
+P	Seismitoad	蟾蜍王
+P	Throh	投摔鬼
+P	Sawk	打击鬼
+P	Sewaddle	虫宝包
+P	Swadloon	宝包茧
+P	Leavanny	保姆虫
+P	Venipede	百足蜈蚣
+P	Whirlipede	车轮球
+P	Scolipede	蜈蚣王
+P	Cottonee	木棉球
+P	Whimsicott	风妖精
+P	Petilil	百合根娃娃
+P	Lilligant	裙儿小姐
+P	Basculin	野蛮鲈鱼
+P	Sandile	黑眼鳄
+P	Krokorok	混混鳄
+P	Krookodile	流氓鳄
+P	Darumaka	火红不倒翁
+P	Darmanitan	达摩狒狒
+P	Maractus	沙铃仙人掌
+P	Dwebble	石居蟹
+P	Crustle	岩殿居蟹
+P	Scraggy	滑滑小子
+P	Scrafty	头巾混混
+P	Sigilyph	象征鸟
+P	Yamask	哭哭面具
+P	Cofagrigus	迭失棺
+P	Tirtouga	原盖海龟
+P	Carracosta	肋骨海龟
+P	Archen	始祖小鸟
+P	Archeops	始祖大鸟
+P	Trubbish	破破袋
+P	Garbodor	灰尘山
+P	Zorua	索罗亚
+P	Zoroark	索罗亚克
+P	Minccino	泡沫栗鼠
+P	Cinccino	奇诺栗鼠
+P	Gothita	哥德宝宝
+P	Gothorita	哥德小童
+P	Gothitelle	哥德小姐
+P	Solosis	单卵细胞球
+P	Duosion	双卵细胞球
+P	Reuniclus	人造细胞卵
+P	Ducklett	鸭宝宝
+P	Swanna	舞天鹅
+P	Vanillite	迷你冰
+P	Vanillish	多多冰
+P	Vanilluxe	双倍多多冰
+P	Deerling	四季鹿
+P	Sawsbuck	萌芽鹿
+P	Emolga	电飞鼠
+P	Karrablast	盖盖虫
+P	Escavalier	骑士蜗牛
+P	Foongus	哎呀球菇
+P	Amoonguss	败露球菇
+P	Frillish	轻飘飘
+P	Jellicent	胖嘟嘟
+P	Alomomola	保姆曼波
+P	Joltik	电电虫
+P	Galvantula	电蜘蛛
+P	Ferroseed	种子铁球
+P	Ferrothorn	坚果哑铃
+P	Klink	齿轮儿
+P	Klang	齿轮组
+P	Klinklang	齿轮怪
+P	Tynamo	麻麻小鱼
+P	Eelektrik	麻麻鳗
+P	Eelektross	麻麻鳗鱼王
+P	Elgyem	小灰怪
+P	Beheeyem	大宇怪
+P	Litwick	烛光灵
+P	Lampent	灯火幽灵
+P	Chandelure	水晶灯火灵
+P	Axew	牙牙
+P	Fraxure	斧牙龙
+P	Haxorus	双斧战龙
+P	Cubchoo	喷嚏熊
+P	Beartic	冻原熊
+P	Cryogonal	几何雪花
+P	Shelmet	小嘴蜗
+P	Accelgor	敏捷虫
+P	Stunfisk	泥巴鱼
+P	Mienfoo	功夫鼬
+P	Mienshao	师父鼬
+P	Druddigon	赤面龙
+P	Golett	泥偶小人
+P	Golurk	泥偶巨人
+P	Pawniard	驹刀小兵
+P	Bisharp	劈斩司令
+P	Bouffalant	爆炸头水牛
+P	Rufflet	毛头小鹰
+P	Braviary	勇士雄鹰
+P	Vullaby	秃鹰丫头
+P	Mandibuzz	秃鹰娜
+P	Heatmor	熔蚁兽
+P	Durant	铁蚁
+P	Deino	单首龙
+P	Zweilous	双首暴龙
+P	Hydreigon	三首恶龙
+P	Larvesta	燃烧虫
+P	Volcarona	火神蛾
+P	Cobalion	勾帕路翁
+P	Terrakion	代拉基翁
+P	Virizion	毕力吉翁
+P	Tornadus	龙卷云
+P	Thundurus	雷电云
+P	Reshiram	莱希拉姆
+P	Zekrom	捷克罗姆
+P	Landorus	土地云
+P	Kyurem	酋雷姆
+P	Keldeo	凯路迪欧
+P	Meloetta	美洛耶塔
+P	Genesect	盖诺赛克特
+P	Chespin	哈力栗
+P	Quilladin	胖胖哈力
+P	Chesnaught	布里卡隆
+P	Fennekin	火狐狸
+P	Braixen	长尾火狐
+P	Delphox	妖火红狐
+P	Froakie	呱呱泡蛙
+P	Frogadier	呱头蛙
+P	Greninja	甲贺忍蛙
+P	Bunnelby	掘掘兔
+P	Diggersby	掘地兔
+P	Fletchling	小箭雀
+P	Fletchinder	火箭雀
+P	Talonflame	烈箭鹰
+P	Scatterbug	粉蝶虫
+P	Spewpa	粉蝶蛹
+P	Vivillon	彩粉蝶
+P	Litleo	小狮狮
+P	Pyroar	火炎狮
+P	Flabébé	花蓓蓓
+P	Floette	花叶蒂
+P	Florges	花洁夫人
+P	Skiddo	坐骑小羊
+P	Gogoat	坐骑山羊
+P	Pancham	顽皮熊猫
+P	Pangoro	霸道熊猫
+P	Furfrou	多丽米亚
+P	Espurr	妙喵
+P	Meowstic	超能妙喵
+P	Honedge	独剑鞘
+P	Doublade	双剑鞘
+P	Aegislash	坚盾剑怪
+P	Spritzee	粉香香
+P	Aromatisse	芳香精
+P	Swirlix	绵绵泡芙
+P	Slurpuff	胖甜妮
+P	Inkay	好啦鱿
+P	Malamar	乌贼王
+P	Binacle	龟脚脚
+P	Barbaracle	龟足巨铠
+P	Skrelp	垃垃藻
+P	Dragalge	毒藻龙
+P	Clauncher	铁臂枪虾
+P	Clawitzer	钢炮臂虾
+P	Helioptile	伞电蜥
+P	Heliolisk	光电伞蜥
+P	Tyrunt	宝宝暴龙
+P	Tyrantrum	怪颚龙
+P	Amaura	冰雪龙
+P	Aurorus	冰雪巨龙
+P	Sylveon	仙子伊布
+P	Hawlucha	摔角鹰人
+P	Dedenne	咚咚鼠
+P	Carbink	小碎钻
+P	Goomy	黏黏宝
+P	Sliggoo	黏美儿
+P	Goodra	黏美龙
+P	Klefki	钥圈儿
+P	Phantump	小木灵
+P	Trevenant	朽木妖
+P	Pumpkaboo	南瓜精
+P	Gourgeist	南瓜怪人
+P	Bergmite	冰宝
+P	Avalugg	冰岩怪
+P	Noibat	嗡蝠
+P	Noivern	音波龙
+P	Xerneas	哲尔尼亚斯
+P	Yveltal	伊裴尔塔尔
+P	Zygarde	基格尔德
+P	Diancie	蒂安希
+P	Hoopa	胡帕
+P	Volcanion	波尔凯尼恩
+P	Rowlet	木木枭
+P	Dartrix	投羽枭
+P	Decidueye	狙射树枭
+P	Litten	火斑喵
+P	Torracat	炎热喵
+P	Incineroar	炽焰咆哮虎
+P	Popplio	球球海狮
+P	Brionne	花漾海狮
+P	Primarina	西狮海壬
+P	Pikipek	小笃儿
+P	Trumbeak	喇叭啄鸟
+P	Toucannon	铳嘴大鸟
+P	Yungoos	猫鼬少
+P	Gumshoos	猫鼬探长
+P	Grubbin	强颚鸡母虫
+P	Charjabug	虫电宝
+P	Vikavolt	锹农炮虫
+P	Crabrawler	好胜蟹
+P	Crabominable	好胜毛蟹
+P	Oricorio	花舞鸟
+P	Cutiefly	萌虻
+P	Ribombee	蝶结萌虻
+P	Rockruff	岩狗狗
+P	Lycanroc	鬃岩狼人
+P	Wishiwashi	弱丁鱼
+P	Mareanie	好坏星
+P	Toxapex	超坏星
+P	Mudbray	泥驴仔
+P	Mudsdale	重泥挽马
+P	Dewpider	滴蛛
+P	Araquanid	滴蛛霸
+P	Fomantis	伪螳草
+P	Lurantis	兰螳花
+P	Morelull	睡睡菇
+P	Shiinotic	灯罩夜菇
+P	Salandit	夜盗火蜥
+P	Salazzle	焰后蜥
+P	Stufful	童偶熊
+P	Bewear	穿着熊
+P	Bounsweet	甜竹竹
+P	Steenee	甜舞妮
+P	Tsareena	甜冷美后
+P	Comfey	花疗环环
+P	Oranguru	智挥猩
+P	Passimian	投掷猴
+P	Wimpod	胆小虫
+P	Golisopod	具甲武者
+P	Sandygast	沙丘娃
+P	Palossand	噬沙堡爷
+P	Pyukumuku	拳海参
+P	Type: Null	属性：空
+P	Silvally	银伴战兽
+P	Minior	小陨星
+P	Komala	树枕尾熊
+P	Turtonator	爆焰龟兽
+P	Togedemaru	托戈德玛尔
+P	Mimikyu	谜拟丘
+P	Bruxish	磨牙彩皮鱼
+P	Drampa	老翁龙
+P	Dhelmise	破破舵轮
+P	Jangmo-o	心鳞宝
+P	Hakamo-o	鳞甲龙
+P	Kommo-o	杖尾鳞甲龙
+P	Tapu Koko	卡璞・鸣鸣
+P	Tapu Lele	卡璞・蝶蝶
+P	Tapu Bulu	卡璞・哞哞
+P	Tapu Fini	卡璞・鳍鳍
+P	Cosmog	科斯莫古
+P	Cosmoem	科斯莫姆
+P	Solgaleo	索尔迦雷欧
+P	Lunala	露奈雅拉
+P	Nihilego	虚吾伊德
+P	Buzzwole	爆肌蚊
+P	Pheromosa	费洛美螂
+P	Xurkitree	电束木
+P	Celesteela	铁火辉夜
+P	Kartana	纸御剑
+P	Guzzlord	恶食大王
+P	Necrozma	奈克洛兹玛
+P	Magearna	玛机雅娜
+P	Marshadow	玛夏多
+P	Poipole	毒贝比
+P	Naganadel	四颚针龙
+P	Stakataka	垒磊石
+P	Blacephalon	砰头小丑
+P	Zeraora	捷拉奥拉
+P	Meltan	美录坦
+P	Melmetal	美录梅塔
+P	Grookey	敲音猴
+P	Thwackey	啪咚猴
+P	Rillaboom	轰擂金刚猩
+P	Scorbunny	炎兔儿
+P	Raboot	腾蹴小将
+P	Cinderace	闪焰王牌
+P	Sobble	泪眼蜥
+P	Drizzile	变涩蜥
+P	Inteleon	千面避役
+P	Skwovet	贪心栗鼠
+P	Greedent	藏饱栗鼠
+P	Rookidee	稚山雀
+P	Corvisquire	蓝鸦
+P	Corviknight	钢铠鸦
+P	Blipbug	索侦虫
+P	Dottler	天罩虫
+P	Orbeetle	以欧路普
+P	Nickit	狡小狐
+P	Thievul	猾大狐
+P	Gossifleur	幼棉棉
+P	Eldegoss	白蓬蓬
+P	Wooloo	毛辫羊
+P	Dubwool	毛毛角羊
+P	Chewtle	咬咬龟
+P	Drednaw	暴噬龟
+P	Yamper	来电汪
+P	Boltund	逐电犬
+P	Rolycoly	小炭仔
+P	Carkol	大炭车
+P	Coalossal	巨炭山
+P	Applin	啃果虫
+P	Flapple	苹裹龙
+P	Appletun	丰蜜龙
+P	Silicobra	沙包蛇
+P	Sandaconda	沙螺蟒
+P	Cramorant	古月鸟
+P	Arrokuda	刺梭鱼
+P	Barraskewda	戽斗尖梭
+P	Toxel	电音婴
+P	Toxtricity	颤弦蝾螈
+P	Sizzlipede	烧火蚣
+P	Centiskorch	焚焰蚣
+P	Clobbopus	拳拳蛸
+P	Grapploct	八爪武师
+P	Sinistea	来悲茶
+P	Polteageist	怖思壶
+P	Hatenna	迷布莉姆
+P	Hattrem	提布莉姆
+P	Hatterene	布莉姆温
+P	Impidimp	捣蛋小妖
+P	Morgrem	诈唬魔
+P	Grimmsnarl	长毛巨魔
+P	Obstagoon	堵拦熊
+P	Perrserker	喵头目
+P	Cursola	魔灵珊瑚
+P	Sirfetch’d	葱游兵
+P	Mr. Rime	踏冰人偶
+P	Runerigus	迭失板
+P	Milcery	小仙奶
+P	Alcremie	霜奶仙
+P	Falinks	列阵兵
+P	Pincurchin	啪嚓海胆
+P	Snom	雪吞虫
+P	Frosmoth	雪绒蛾
+P	Stonjourner	巨石丁
+P	Eiscue	冰砌鹅
+P	Indeedee	爱管侍
+P	Morpeko	莫鲁贝可
+P	Cufant	铜象
+P	Copperajah	大王铜象
+P	Dracozolt	雷鸟龙
+P	Arctozolt	雷鸟海兽
+P	Dracovish	鳃鱼龙
+P	Arctovish	鳃鱼海兽
+P	Duraludon	铝钢龙
+P	Dreepy	多龙梅西亚
+P	Drakloak	多龙奇
+P	Dragapult	多龙巴鲁托
+P	Zacian	苍响
+P	Zamazenta	藏玛然特
+P	Eternatus	无极汰那
+P	Kubfu	熊徒弟
+P	Urshifu	武道熊师
+P	Zarude	萨戮德
+P	Regieleki	雷吉艾勒奇
+P	Regidrago	雷吉铎拉戈
+P	Glastrier	雪暴马
+P	Spectrier	灵幽马
+P	Calyrex	蕾冠王
+P	Wyrdeer	诡角鹿
+P	Kleavor	劈斧螳螂
+P	Ursaluna	月月熊
+P	Basculegion	幽尾玄鱼
+P	Sneasler	大狃拉
+P	Overqwil	万针鱼
+P	Enamorus	眷恋云
+P	Sprigatito	新叶喵
+P	Floragato	蒂蕾喵
+P	Meowscarada	魔幻假面喵
+P	Fuecoco	呆火鳄
+P	Crocalor	炙烫鳄
+P	Skeledirge	骨纹巨声鳄
+P	Quaxly	润水鸭
+P	Quaxwell	涌跃鸭
+P	Quaquaval	狂欢浪舞鸭
+P	Lechonk	爱吃豚
+P	Oinkologne	飘香豚
+P	Tarountula	团珠蛛
+P	Spidops	操陷蛛
+P	Nymble	豆蟋蟀
+P	Lokix	烈腿蝗
+P	Pawmi	布拨
+P	Pawmo	布土拨
+P	Pawmot	巴布土拨
+P	Tandemaus	一对鼠
+P	Maushold	一家鼠
+P	Fidough	狗仔包
+P	Dachsbun	麻花犬
+P	Smoliv	迷你芙
+P	Dolliv	奥利纽
+P	Arboliva	奥利瓦
+P	Squawkabilly	怒鹦哥
+P	Nacli	盐石宝
+P	Naclstack	盐石垒
+P	Garganacl	盐石巨灵
+P	Charcadet	炭小侍
+P	Armarouge	红莲铠骑
+P	Ceruledge	苍炎刃鬼
+P	Tadbulb	光蚪仔
+P	Bellibolt	电肚蛙
+P	Wattrel	电海燕
+P	Kilowattrel	大电海燕
+P	Maschiff	偶叫獒
+P	Mabosstiff	獒教父
+P	Shroodle	滋汁鼹
+P	Grafaiai	涂标客
+P	Bramblin	纳噬草
+P	Brambleghast	怖纳噬草
+P	Toedscool	原野水母
+P	Toedscruel	陆地水母
+P	Klawf	毛崖蟹
+P	Capsakid	热辣娃
+P	Scovillain	狠辣椒
+P	Rellor	虫滚泥
+P	Rabsca	虫甲圣
+P	Flittle	飘飘雏
+P	Espathra	超能艳鸵
+P	Tinkatink	小锻匠
+P	Tinkatuff	巧锻匠
+P	Tinkaton	巨锻匠
+P	Wiglett	海地鼠
+P	Wugtrio	三海地鼠
+P	Bombirdier	下石鸟
+P	Finizen	波普海豚
+P	Palafin	海豚侠
+P	Varoom	噗隆隆
+P	Revavroom	普隆隆姆
+P	Cyclizar	摩托蜥
+P	Orthworm	拖拖蚓
+P	Glimmet	晶光芽
+P	Glimmora	晶光花
+P	Greavard	墓仔狗
+P	Houndstone	墓扬犬
+P	Flamigo	纏红鹤
+P	Cetoddle	走鲸
+P	Cetitan	浩大鲸
+P	Veluza	轻身鳕
+P	Dondozo	吃吼霸
+P	Tatsugiri	米立龙
+P	Annihilape	弃世猴
+P	Clodsire	土王
+P	Farigiraf	奇麒麟
+P	Dudunsparce	土龙节节
+P	Kingambit	仆刀将军
+P	Great Tusk	雄伟牙
+P	Scream Tail	吼叫尾
+P	Brute Bonnet	猛恶菇
+P	Flutter Mane	振翼发
+P	Slither Wing	爬地翅
+P	Sandy Shocks	沙铁皮
+P	Iron Treads	铁轍迹
+P	Iron Bundle	铁包袱
+P	Iron Hands	铁臂膀
+P	Iron Jugulis	铁脖颈
+P	Iron Moth	铁毒蛾
+P	Iron Thorns	铁荆棘
+P	Frigibax	凉脊龙
+P	Arctibax	冻脊龙
+P	Baxcalibur	戟脊龙
+P	Gimmighoul	索财灵
+P	Gholdengo	赛富豪
+P	Wo-Chien	古简蜗
+P	Chien-Pao	古剑豹
+P	Ting-Lu	古鼎鹿
+P	Chi-Yu	古玉鱼
+P	Roaring Moon	轰鸣月
+P	Iron Valiant	铁武者
+P	Koraidon	故勒顿
+P	Miraidon	密勒顿
+P	Walking Wake	波荡水
+P	Iron Leaves	铁斑叶
+P	Dipplin	裹蜜虫
+P	Poltchageist	斯魔茶
+P	Sinistcha	来悲粗茶
+P	Okidogi	够赞狗
+P	Munkidori	愿增猿
+P	Fezandipiti	吉雉鸡
+P	Ogerpon	厄诡椪
+P	Archaludon	铝钢桥龙
+P	Hydrapple	蜜集大蛇
+P	Gouging Fire	破空焰
+P	Raging Bolt	猛雷鼓
+P	Iron Boulder	铁磐岩
+P	Iron Crown	铁头壳
+P	Terapagos	太乐巴戈斯
+P	Pecharunt	桃歹郎
